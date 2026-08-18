@@ -14,7 +14,7 @@ const Experience = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-start justify-between gap-2">
 
             {/* 1st experience */}
-          <div className=" flex items-start justify-between gap-5">
+          <div className=" flex items-start gap-5">
             <div className="bg-linear-to-r from-[#0d1b2a86] w-15 h-15 via-[#25a6eb79] to-[#0d1b2a86] flex items-center justify-center rounded-full shrink-0">
               <FaCode className="w-8 h-8" />
             </div>
@@ -27,7 +27,7 @@ const Experience = () => {
           </div>
 
             {/* 2nd experience */}
-          <div className=" flex items-start justify-between gap-5">
+          <div className=" flex items-start gap-5">
             <div className="bg-linear-to-r from-[#0d1b2a86] w-15 h-15 via-[#25a6eb79] to-[#0d1b2a86] flex items-center justify-center rounded-full shrink-0">
               <TbDeviceLaptop className="w-8 h-8" />
             </div>
@@ -40,7 +40,7 @@ const Experience = () => {
           </div>
 
             {/* 3rd experience */}
-          <div className=" flex items-start justify-between gap-5">
+          <div className=" flex items-start gap-5">
             <div className="bg-linear-to-r from-[#0d1b2a86] w-15 h-15 via-[#25a6eb79] to-[#0d1b2a86] flex items-center justify-center rounded-full shrink-0">
               <Globe className="w-8 h-8" />
             </div>
@@ -53,7 +53,7 @@ const Experience = () => {
           </div>
 
             {/* 4th experience */}
-          <div className=" flex items-start justify-between gap-5">
+          <div className=" flex items-start gap-5">
             <div className="bg-linear-to-r from-[#0d1b2a86] w-15 h-15 via-[#25a6eb79] to-[#0d1b2a86] flex items-center justify-center rounded-full shrink-0">
               <MdSecurity className="w-8 h-8" />
             </div>

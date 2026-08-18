@@ -70,18 +70,19 @@ const About = () => {
                 </p>
               </div>
             </div>
-
-            <div className="bg-[#0D1B2A] w-2 h-85 left-0 top-0"></div>
+            
+            {/* absolute vertical line */}
+            <div className="bg-[#0D1B2A] w-2 md:min-h-120 lg:min-h-85 left-0 top-0"></div>
           </div>
 
           {/* 2nd */}
           <div className="grid grid-rows-1">
-            <div className="grid grid-cols-1 md:grid-cols-2 items-start justify-start gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-start justify-start gap-8 md:gap-20 lg:gap-4">
               {aboutCards.map((cards: AboutCards) => {
                 const Icon = cards.icons
                 return (
                   <div key={cards.id} className="flex items-center">
-                    <div className={`h-40 max-w-60 p-4 rounded-md grid gap-4 shadow-sm shadow-[#38BDF8] ${cards.bgColor}`}>
+                    <div className={`min-h-40 max-w-60 p-4 rounded-md grid gap-4 shadow-sm shadow-[#38BDF8] ${cards.bgColor}`}>
                       <Icon className={`w-5 h-5 ${cards.icons}`} />
                       <h5 className="flex flex-1 items-center ">{cards.title}</h5>
                       <p className=" text-[14px] text-[#94A3B8] flex flex-1">{cards.text}</p>
@@ -90,7 +91,6 @@ const About = () => {
                 )
               })}
             </div>
-            {/* absolute vertical line */}
           </div>
         </div>
       </div>

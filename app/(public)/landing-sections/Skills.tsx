@@ -7,7 +7,7 @@ import { FaCircleCheck } from "react-icons/fa6"
 const Skills = () => {
     return (
         <div id="skills" className="py-20">
-            <div className="max-w-[80%] mx-auto mt-15">
+            <div className="w-[80%] mx-auto mt-15">
                 <h4 className="text-[#25a6eb] tracking-wider uppercase mb-5">technical skills</h4>
                 <div className="flex items-center justify-center gap-4">
                     <div className="relative">
@@ -63,7 +63,8 @@ const Skills = () => {
 
                         {/* absolute tree */}
                         <div className="bg-[#0D1B2A] w-5 h-100 left-0 top-0 flex items-center justify-center  relative"></div>
-                        <div className="absolute bg-[#38bff885] w-20 h-5 left-5 top-4 flex items-center justify-center rounded-r-4xl -z-10"></div>
+                        {/*card holders */}
+                        <div className="absolute bg-[#38bff885] max-w-md w-20 h-5 left-5 top-4 flex items-center justify-center rounded-r-4xl -z-10"></div>
                         <div className="absolute bg-[#38bff885] w-20 h-5 right-5 top-10 flex items-center justify-center rounded-l-4xl -z-10"></div>
                         <div className="absolute bg-[#38bff885] w-20 h-5 right-5 top-56 flex items-center justify-center rounded-l-4xl -z-10"></div>
                         <div className="absolute bg-[#38bff885] w-20 h-5 left-5 top-62 flex items-center justify-center rounded-r-4xl -z-10"></div>

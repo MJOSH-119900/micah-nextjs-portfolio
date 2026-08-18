@@ -42,7 +42,7 @@ const Nav = () => {
                     </div>
 
                     <div className="flex items-center justify-between gap-6">
-                        <a href="#" className="bg-[#2563EB] flex items-center gap-2 px-6 py-2 rounded-sm" >
+                        <a href="#" className="bg-[#2563EB] flex items-center gap-2 px-6 py-2 rounded-sm w-auto whitespace-nowrap " >
                             <span>Let&apos;s talk</span>
                             <HiChatBubbleBottomCenterText />
                         </a>

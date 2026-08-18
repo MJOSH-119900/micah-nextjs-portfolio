@@ -45,7 +45,7 @@ const aboutCards: AboutCards[] = [
 
 const About = () => {
   return (
-    <div id="about" className="py-20">
+    <div id="about" className="py-20 relative">
       <div className="w-[80%] mx-auto mt-15">
         <h4 className="text-[#25a6eb] tracking-wider uppercase mb-5">about me</h4>
         <div className="flex items-start justify-center text-[14px] gap-4">
@@ -93,6 +93,9 @@ const About = () => {
             </div>
           </div>
         </div>
+        {/*card holders */}
+            <div className="absolute bg-[#0D1B2A] w-80 h-10 right-0 top-4 flex rounded-bl-full items-center justify-center -z-10"></div>
+            <div className="absolute bg-[#0D1B2A] w-2000 h-1 right-0 top-4 flex items-center justify-center -z-10"></div>
       </div>
     </div>
   );

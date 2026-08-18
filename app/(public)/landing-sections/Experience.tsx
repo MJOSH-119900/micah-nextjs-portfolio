@@ -6,12 +6,12 @@ import { TbDeviceLaptop } from "react-icons/tb";
 
 const Experience = () => {
   return (
-    <div id="experience" className="py-20">
+    <div id="experience" className="py-20 relative">
       <div className="w-[80%] mx-auto mt-15">
         <h4 className="text-[#25a6eb] tracking-wider uppercase mb-5">
           Experience
         </h4>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-start justify-between gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-start justify-between gap-10 ">
 
             {/* 1st experience */}
           <div className=" flex items-start gap-5">
@@ -53,7 +53,7 @@ const Experience = () => {
           </div>
 
             {/* 4th experience */}
-          <div className=" flex items-start gap-5">
+          <div className=" flex items-start gap-5 z-10">
             <div className="bg-linear-to-r from-[#0d1b2a86] w-15 h-15 via-[#25a6eb79] to-[#0d1b2a86] flex items-center justify-center rounded-full shrink-0">
               <MdSecurity className="w-8 h-8" />
             </div>
@@ -64,6 +64,9 @@ const Experience = () => {
                 <p className="text-[14px] text-[#94A3B8]">Studied and gained hanhson experience in <br /> network security, vulnerability <br /> assessment and secure coding. </p>
               </div>
           </div>
+            {/*card holders */}
+            <div className="absolute bg-[#0D1B2A] w-80 h-10 left-0 top-4 flex rounded-br-full items-center justify-center -z-10"></div>
+            <div className="absolute bg-[#0D1B2A] w-2000 h-1 right-0 top-4 flex items-center justify-center -z-10"></div>
         </div>
       </div>
     </div>

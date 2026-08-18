@@ -13,7 +13,7 @@ const Projects = () => {
         </h4>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* 1st */}
-          <div className="flex flex-col gap-2 border-2 border-[#0D1B2A] rounded-md p-5">
+          <div className="flex flex-col gap-2 shadow-sm shadow-[#25a6eb] rounded-md p-5">
             <Image
               src="/images/person1.png"
               alt=""
@@ -84,7 +84,7 @@ const Projects = () => {
           </div>
 
             {/*2nd */}
-          <div className="flex flex-col gap-2 border-2 border-[#0D1B2A] rounded-md p-5">
+          <div className="flex flex-col gap-2 shadow-sm shadow-[#25a6eb] rounded-md p-5">
             <Image
               src="/images/person1.png"
               alt=""

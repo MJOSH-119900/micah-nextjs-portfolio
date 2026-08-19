@@ -28,7 +28,7 @@ const stats: ProfileSummary[] = [
   },
   {
     id: 3,
-    label: "Technologies",
+    label: "Technologies Used",
     value: "12+",
     icon: Code2,
     color: "text-purple-500",
@@ -105,9 +105,9 @@ const Hero = () => {
       </div>
 
       <div className="bg-[#0d1b2a32] w-full mx-auto">
-        <div className="flex items-center justify-between py-10">
+        <div className="flex items-center justify-around py-10">
           <Image src="/images/security.svg" alt="shield image" width={40} height={40} className="bg-[#94a3b83b] rounded-2xl" />
-          <div className="flex items-center justify-center whitespace-nowrap gap-8 lg:gap-20">
+          <div className="flex items-center justify-center gap-8 lg:gap-20">
             {stats.map((stat: ProfileSummary) => {
               const Icons = stat.icon
               return (

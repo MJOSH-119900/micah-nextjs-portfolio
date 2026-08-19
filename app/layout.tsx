@@ -1,7 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Nav from "./(public)/landing-sections/Nav";
+import Nav from "./(public)/components/Nav";
+import Footer from "./(public)/components/Footer";
 
 const inter = Inter({
   variable: "--font-geist-sans",
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col scroll-smooth">
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -61,32 +61,31 @@ const Form = () => {
   return (
     <div className="flex items-start rounded-md shadow-sm shadow-[#25a6eb] p-2">
 
-      <form onSubmit={handleSubmit} className="flex flex-col gap-2">
-        <div className="flex items-center gap-2">
+      <form onSubmit={handleSubmit} className="flex flex-col gap-2 min-w-xs">
           <input
             required
             type="text"
-            placeholder="Your Name"
+            placeholder="Name: enter name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-             className="w-full text-xs md:text-sm  border border-[#25a6eb1a] rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
+             className="w-full text-xs  border border-[#25a6eb1a] rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
           />
           <input
             required
             type="email"
-            placeholder="Your Email"
+            placeholder="Email: name@gmail.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full text-xs md:text-sm  border border-[#25a6eb1a] rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
+            className="w-full text-xs  border border-[#25a6eb1a] rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
           />
-        </div>
+       
         <input
           required
           type="text"
           placeholder="Subject"
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
-          className="w-full text-xs md:text-sm  border border-[#25a6eb1a] rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
+          className="w-full text-xs  border border-[#25a6eb1a] rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
         />
 
         <textarea
@@ -95,12 +94,12 @@ const Form = () => {
           rows={4}
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="w-full text-xs md:text-sm border border-[#25a6eb1a] rounded-md px-3 py-3 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
+          className="w-full text-xs border border-[#25a6eb1a] rounded-md px-3 py-3 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
         ></textarea>
 
         <button
           type="submit"
-          className="border-2 border-[#2563EB] bg-[#2563EB] text-[] text-xs md:text-sm rounded-md px-5 py-2 tracking-normal hover:bg-[#07111F] hover:border-2 hover:border-[#2563EB]"
+          className="border-2 border-[#2563EB] bg-[#2563EB] text-xs md:text-sm lg:text-base rounded-md px-5 py-2 tracking-normal hover:bg-[#07111F] hover:border-2 hover:border-[#2563EB]"
         >
           Send Email
         </button>

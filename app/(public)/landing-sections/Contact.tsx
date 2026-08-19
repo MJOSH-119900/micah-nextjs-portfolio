@@ -5,7 +5,6 @@ import Image from "next/image";
 import { GraduationCap } from "lucide-react";
 import React from "react";
 
-
 const Contact = () => {
   return (
     <div className="py-20 relative">
@@ -58,19 +57,19 @@ const Contact = () => {
             </div>
           </div>
         </div>
- 
+
         {/*card holders */}
         <div className="absolute bg-[#0D1B2A] w-80 h-10 right-0 top-4 flex rounded-bl-full items-center justify-center -z-10"></div>
         <div className="absolute bg-[#0D1B2A] w-2000 h-1 right-0 top-4 flex items-center justify-center -z-10"></div>
 
         {/* **************************************** contact section **************************************************************************/}
-        <div  id="contact"  className="mt-15">
+        <div id="contact" className="mt-15">
           <h4 className="text-[#25a6eb] tracking-wider uppercase mb-5">
             contact
           </h4>
-          <div className="flex items-start justify-between gap-5">
+          <div className="flex flex-col-reverse lg:flex-row items-start justify-between gap-20 lg:gap-5">
             {/* Contacts  1st */}
-            <div className="flex flex-col gap-10 text-[12px]">
+            <div className="w-full md:max-w-1/3 lg:max-w-1/4 flex flex-col gap-10 md:gap-8 text-[12px] bg-[#0d1b2a7c] p-5 rounded-md">
               <div className="flex gap-4">
                 <MailIcon className="h-6 clas text-[#2563EB]" />
                 <div className="flex flex-col items-start">
@@ -120,16 +119,22 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Form 2nd */}
-            <Form />
+            {/* Form for small and large screen */}
+            <div className="md:hidden lg:block">
+              <Form />
+            </div>
 
-            {/* qualificatio absolute vertical lines demacation 3rd */}
-            <div className="bg-[#0D1B2A] w-1 min-h-64  flex items-center justify-center -z-10"></div>
 
             {/* text and image */}
-            <div className="flex items-center justify-between bg-[#0d1b2a7c] rounded-md p-5">
+            <div className="flex items-center justify-between bg-[#0d1b2a7c] rounded-md p-5 gap-10">
               <div className="flex flex-col gap-4 lg:mt-10">
-                <h3>Let's  <span className="text-[#2563EB] font-extrabold">build something </span>great together!</h3>
+                <h3>
+                  Let's{" "}
+                  <span className="text-[#2563EB] font-extrabold">
+                    build something
+                  </span>
+                  great together!
+                </h3>
                 <div className="text-[14px] text-[#94A3B8] flex flex-col gap-20 lg:gap-20">
                   <p className="flex ">
                     Have a project in mind or just want to say hello? I'd love
@@ -144,6 +149,11 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
+
+               {/* Form for medium screen */}
+            <div className="hidden md:flex lg:hidden">
+              <Form />
+            </div>
             </div>
           </div>
         </div>
@@ -154,7 +164,7 @@ const Contact = () => {
         alt="logo"
         width={1000}
         height={40}
-        className="w-70 bottom-40 lg:min-w-sm object-cover -z-10 absolute lg:bottom-30 right-24 lg:right-30"
+        className="w-70 md:w-100 lg:min-w-xs object-cover -z-10 absolute bottom-25 md:bottom-10 lg:bottom-25 right-9 md:right-25 lg:right-30"
       />
     </div>
   );

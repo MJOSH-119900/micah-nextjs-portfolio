@@ -45,10 +45,10 @@ const stats: ProfileSummary[] = [
 const Hero = () => {
   return (
     <div id="home" className="max-w-[80%] min-h-screen mx-auto">
-      <div className="flex items-end justify-between gap-20">
+      <div className="flex flex-col-reverse md:flex-row items-end justify-between gap-10 md:gap-20 ">
         {/* hero write-up */}
-        <div className="w-[60%] text-[16px] text-[#F8FAFC] flex flex-col gap-2 mt-10">
-          <p className="text-[#25a6eb] tracking-wider uppercase">
+        <div className="md:w-[60%] text-[16px] text-[#F8FAFC] flex flex-col gap-5 items-center justify-center md:mt-10 md:items-start md:gap-2">
+          <p className="text-[#25a6eb] tracking-wider uppercase text-center md:text-start">
             Hello, I&apos;m Micah
           </p>
           <h1 className="hidden lg:block">
@@ -58,14 +58,14 @@ const Hero = () => {
             <br /> and <span className="text-[#2563EB]">Next.js</span>{" "}
             applications.
           </h1>
-          <h3 className="block lg:hidden">
+          <h3 className="block text-center md:text-start lg:hidden">
             Mid-Level Front-End Engineer specializing in{" "}
             <span className="text-[#2563EB]">secure</span>,<br />
             <span className="text-[#2563EB]">high-performance </span> React{" "}
             <br /> and <span className="text-[#2563EB]">Next.js</span>{" "}
             applications.
           </h3>
-          <p className="mb-4 text-xs md:text-sm lg:text-base ">
+          <p className="mb-4 text-xs md:text-sm lg:text-base text-justify md:text-start">
             I combine a background in Cybersecurity with modern front-end <br />{" "}
             tools to build safe, accessible, ans fast web experiences. <br />{" "}
             clean code. Strong security, Great UX
@@ -91,23 +91,23 @@ const Hero = () => {
 
         {/* hero image */}
 
-        <div className="max-w-[40%] flex items-center justify-center relative mt-3 lg:mt-0">
+        <div className="md:max-w-[40%] flex items-center justify-center relative mt-3 lg:mt-0">
           <Image
             src="/images/image-me2.png"
             alt="MJ logo"
             width={10000}
             height={490}
-            className="block h-auto lg:max-w-md md:max-w-sm  overflow-hidden"
+            className="border-b-6 border-[#25a6eb15] md:border-0 rounded-b-lg block h-auto lg:max-w-md md:max-w-sm  overflow-hidden"
           />
 
-          <div className="absolute lg:w-100 lg:h-100 md:w-70 md:h-70 bg-[#0D1B2A] rounded-full shadow-md shadow-[#38BDF8] rotate-180 lg:top-8 right-0 -z-10"></div>
+          <div className="absolute h-72 w-70  lg:w-100 lg:h-100 md:w-70 md:h-70 bg-[#0D1B2A] rounded-full shadow-md shadow-[#38BDF8] rotate-180 right-6 lg:top-8 md:right-0 -z-10"></div>
         </div>
       </div>
 
       <div className="bg-[#0d1b2a32] w-full mx-auto">
         <div className="flex items-center justify-around py-10">
           <Image src="/images/security.svg" alt="shield image" width={40} height={40} className="bg-[#94a3b83b] rounded-2xl" />
-          <div className="flex items-center justify-center gap-8 lg:gap-20">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-20">
             {stats.map((stat: ProfileSummary) => {
               const Icons = stat.icon
               return (

@@ -119,7 +119,7 @@ const Projects = () => {
                 </p>
               </div>
               <div className="flex items-center gap-2">
-                <Check className="text-green-600" />
+                <Check className="text-green-600" /> 
                 <p className="text-[14px]">Rate limiting & security best practices</p>
               </div>
               <div className="flex items-center justify-between gap-4">

@@ -154,7 +154,7 @@ const Contact = () => {
         alt="logo"
         width={1000}
         height={40}
-        className="w-70 bottom-40 lg:max-w-md object-cover -z-10 absolute lg:bottom-30 right-24 lg:right-30"
+        className="w-70 bottom-40 lg:min-w-sm object-cover -z-10 absolute lg:bottom-30 right-24 lg:right-30"
       />
     </div>
   );

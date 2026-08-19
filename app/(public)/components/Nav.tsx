@@ -9,7 +9,7 @@ import { LuMoon } from 'react-icons/lu'
 const Nav = () => {
     return (
         <>
-         <div id='home' className="topnav bg-[#0D1B2A]">
+         <div id='home' className="topnav bg-[#0D1B2A] hidden lg:block">
                 <div className="max-w-[80%] mx-auto">
                     <div className="topnav flex items-center justify-between py-2">
                         <div className="flex gap-10 text-[12px] shrink-0">
@@ -33,7 +33,7 @@ const Nav = () => {
                 <div className="max-w-[80%] mx-auto flex items-center justify-between">
                     <Image src="/images/mj-logo.png" alt="MJ logo" width={50} height={50} />
 
-                    <div className="flex items-center gap-10">
+                    <div className="hidden items-center gap-10 lg:flex">
                         <a href="#home" className="text-[#94A3B8] transition-colors hover:text-[#2563EB]">Home</a>
                         <a href="#about" className="text-[#94A3B8] transition-colors hover:text-[#2563EB]">About</a>
                         <a href="#experience" className="text-[#94A3B8] transition-colors hover:text-[#2563EB]">Experience</a>
@@ -41,7 +41,7 @@ const Nav = () => {
                         <a href="#project" className="text-[#94A3B8] transition-colors hover:text-[#2563EB]">Projects</a>
                     </div>
 
-                    <div className="flex items-center justify-between gap-6">
+                    <div className="hidden items-center justify-between gap-6 lg:flex">
                         <a href="#contact" className="bg-[#2563EB] flex items-center gap-2 px-6 py-2 rounded-sm w-auto whitespace-nowrap " >
                             <span>Let&apos;s talk</span>
                             <HiChatBubbleBottomCenterText />

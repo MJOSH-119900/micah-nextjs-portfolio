@@ -4,6 +4,7 @@ import Form from "../components/Form";
 import Image from "next/image";
 import { GraduationCap } from "lucide-react";
 import React from "react";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -142,10 +143,10 @@ const Contact = () => {
                   </p>
 
                   <div className="flex items-center gap-10">
-                    <FaLinkedin className="w-6 h-6" />{" "}
-                    <FaGithub className="w-6 h-6" />{" "}
-                    <FaFacebook className="w-6 h-6" />{" "}
-                    <FaDiscord className="w-6 h-6" />
+                    <Link href="#"><FaLinkedin className="w-6 h-6" /></Link>
+                    <Link href="#"><FaGithub className="w-6 h-6" /></Link>
+                    <Link href="#"><FaFacebook className="w-6 h-6" /></Link>
+                    <Link href="#"><FaDiscord className="w-6 h-6" /></Link>   
                   </div>
                 </div>
               </div>

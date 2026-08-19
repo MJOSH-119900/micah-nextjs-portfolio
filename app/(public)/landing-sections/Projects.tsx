@@ -25,7 +25,7 @@ const Projects = () => {
               <h3 className="text-[#25a6eb]">01</h3>
               <h4>Secure Next.js Application</h4>
             </div>
-            <p className="text-[14px] text-[#94A3B8]">
+            <p className="text-xs md:text-sm text-[#94A3B8]">
               Full-stack Next.js app with secure authentication, <br />{" "}
               role-based access control, and protected routes
             </p>
@@ -33,36 +33,36 @@ const Projects = () => {
             <div className="flex flex-col text-[#94A3B8] items-start gap-2">
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
-                <p className="text-[14px]">
+                <p className="text-xs md:text-sm">
                   NextAuth for secure authentication
                 </p>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
-                <p className="text-[14px]">Role-based access (Admin / User)</p>
+                <p className="text-xs md:text-sm">Role-based access (Admin / User)</p>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
-                <p className="text-[14px]">
+                <p className="text-xs md:text-sm">
                   Protected routes & server-side rendering
                 </p>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
-                <p className="text-[14px]">Optimized for performance</p>
+                <p className="text-xs md:text-sm">Optimized for performance</p>
               </div>
-              <div className="flex items-center justify-between gap-4">
+              <div className="flex items-center justify-between gap-1 lg:gap-4">
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-[14px] text-[#94A3B8]">Next.js</p>
+                  <p className="text-xs md:text-sm text-[#94A3B8]">Next.js</p>
                 </div>
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-[14px] text-[#94A3B8]">React</p>
+                  <p className="text-xs md:text-sm text-[#94A3B8]">React</p>
                 </div>
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-[14px] text-[#94A3B8]">Tailwind CSS</p>
+                  <p className="text-xs md:text-sm text-[#94A3B8]">Tailwind CSS</p>
                 </div>
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-[14px] text-[#94A3B8]">NextAuth</p>
+                  <p className="text-xs md:text-sm text-[#94A3B8]">NextAuth</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -96,7 +96,7 @@ const Projects = () => {
               <h3 className="text-[#25a6eb]">02</h3>
               <h4>E-commerce Platform</h4>
             </div>
-            <p className="text-[14px] text-[#94A3B8]">
+            <p className="text-xs md:text-sm text-[#94A3B8]">
               Modern e-commerce platform with Next.js, Stripe <br />{" "}
               payments and secure checkout flow
             </p>
@@ -104,36 +104,36 @@ const Projects = () => {
             <div className="flex flex-col text-[#94A3B8] items-start gap-2">
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
-                <p className="text-[14px]">
+                <p className="text-xs md:text-sm">
                   Secure checkout & payment integration
                 </p>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
-                <p className="text-[14px]">Server-side rendering for better SEO</p>
+                <p className="text-xs md:text-sm">Server-side rendering for better SEO</p>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
-                <p className="text-[14px]">
+                <p className="text-xs md:text-sm">
                   Input Validation & secure data handling
                 </p>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" /> 
-                <p className="text-[14px]">Rate limiting & security best practices</p>
+                <p className="text-xs md:text-sm">Rate limiting & security best practices</p>
               </div>
-              <div className="flex items-center justify-between gap-4">
+              <div className="flex items-center justify-between gap-1 lg:gap-4 md:mt-5 lg:mt-0">
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-[14px] text-[#94A3B8]">Next.js</p>
+                  <p className="text-xs md:text-sm text-[#94A3B8]">Next.js</p>
                 </div>
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-[14px] text-[#94A3B8]">React</p>
+                  <p className="text-xs md:text-sm text-[#94A3B8]">React</p>
                 </div>
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-[14px] text-[#94A3B8]">Tailwind CSS</p>
+                  <p className="text-xs md:text-sm text-[#94A3B8]">Tailwind CSS</p>
                 </div>
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-[14px] text-[#94A3B8]">Stripe</p>
+                  <p className="text-xs md:text-sm text-[#94A3B8]">Stripe</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">

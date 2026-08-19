@@ -172,7 +172,7 @@ const Skills = () => {
 
         {/* small - medium screen **************************************************************************************** */}
 
-        <div className="relative hidden md:block lg:hidden">
+        <div className="relative md:block lg:hidden">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* 1st card core frameworks */}
             <div className="flex flex-col gap-5 items-center p-5 rounded-md bg-[#0D1B2A] shadow-sm shadow-[#38BDF8] max-w-90 max-h-40">
@@ -186,7 +186,7 @@ const Skills = () => {
                     height={30}
                     className=""
                   />
-                  <p className="text-[14px]">React</p>
+                  <p className="text-xs md:text-sm">React</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <Image
@@ -196,7 +196,7 @@ const Skills = () => {
                     height={30}
                     className=""
                   />
-                  <p className="text-[14px]">Next.js</p>
+                  <p className="text-xs md:text-sm">Next.js</p>
                 </div>
               </div>
             </div>
@@ -207,19 +207,19 @@ const Skills = () => {
               <div className="flex items-start justify-between gap-10 text-[#94A3B8]">
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <FaShieldAlt className="w-6 h-6 text-[#2563EB]" />
-                  <p className="text-[14px] text-center">Web Security</p>
+                  <p className="text-xs md:text-sm text-center">Web Security</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <FaKey className="w-6 h-6 text-[#2563EB]" />
-                  <p className="text-[14px]  text-center">NextAuth</p>
+                  <p className="text-xs md:text-sm  text-center">NextAuth</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <FaCircleCheck className="w-6 h-6 text-[#2563EB]" />
-                  <p className="text-[14px] text-center">Secure API </p>
+                  <p className="text-xs md:text-sm text-center">Secure API </p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <FaKeyboard className="w-6 h-6 text-[#2563EB]" />
-                  <p className="text-[14px] text-center">Next.js</p>
+                  <p className="text-xs md:text-sm text-center">Next.js</p>
                 </div>
               </div>
             </div>
@@ -245,7 +245,7 @@ const Skills = () => {
                     height={30}
                     className=""
                   />
-                  <p className="text-[14px]">Tailwind CSS</p>
+                  <p className="text-xs md:text-sm">Tailwind CSS</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <Image
@@ -255,7 +255,7 @@ const Skills = () => {
                     height={30}
                     className=""
                   />
-                  <p className="text-[14px]">Next.js</p>
+                  <p className="text-xs md:text-sm">Next.js</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <Image
@@ -265,7 +265,7 @@ const Skills = () => {
                     height={30}
                     className=""
                   />
-                  <p className="text-[14px]">Tailwind CSS</p>
+                  <p className="text-xs md:text-sm">Tailwind CSS</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <Image
@@ -275,7 +275,7 @@ const Skills = () => {
                     height={30}
                     className=""
                   />
-                  <p className="text-[14px]">Next.js</p>
+                  <p className="text-xs md:text-sm">Next.js</p>
                 </div>
               </div>
             </div>
@@ -292,7 +292,7 @@ const Skills = () => {
                     height={30}
                     className=""
                   />
-                  <p className="text-[14px]">Tailwind CSS</p>
+                  <p className="text-xs md:text-sm">Tailwind CSS</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <Image
@@ -302,7 +302,7 @@ const Skills = () => {
                     height={30}
                     className=""
                   />
-                  <p className="text-[14px]">Next.js</p>
+                  <p className="text-xs md:text-sm">Next.js</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <Image
@@ -312,7 +312,7 @@ const Skills = () => {
                     height={30}
                     className=""
                   />
-                  <p className="text-[14px]">Tailwind CSS</p>
+                  <p className="text-xs md:text-sm">Tailwind CSS</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <Image
@@ -322,7 +322,7 @@ const Skills = () => {
                     height={30}
                     className="bg-white rounded-full"
                   />
-                  <p className="text-[14px]">Next.js</p>
+                  <p className="text-xs md:text-sm">Next.js</p>
                 </div>
               </div>
             </div>

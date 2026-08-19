@@ -13,7 +13,7 @@ const Contact = () => {
         <h4 className="text-[#25a6eb] tracking-wider uppercase mb-5">
           Education & Qualification
         </h4>
-        <div className="flex items-start justify-between relative">
+        <div className="flex flex-col md:flex-row items-start justify-between gap-10 md:gap-0 relative">
           {/* cybersecurity */}
           <div className=" flex items-start gap-5 z-10">
             <div className="bg-linear-to-r from-[#0d1b2a86] w-15 h-15 via-[#25a6eb79] to-[#0d1b2a86] flex items-center justify-center rounded-full shrink-0">
@@ -28,8 +28,8 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* qualificatio absolute vertical lines demacation */}
-          <div className="bg-[#0D1B2A] w-1 h-40  flex items-center justify-center -z-10"></div>
+          {/* qualificatio absolute vertical lines demacation 1*/}
+          <div className="bg-[#0D1B2A] h-1 w-full md:w-1 md:h-40 flex items-center justify-center -z-10"></div>
 
           {/* {Qualification} */}
           <div className=" flex items-start">
@@ -43,7 +43,7 @@ const Contact = () => {
           </div>
 
           {/* qualificatio absolute vertical lines demacation 2*/}
-          <div className="bg-[#0D1B2A] w-1 h-40  flex items-center justify-center -z-10"></div>
+          <div className="bg-[#0D1B2A] h-1 w-full md:w-1 md:h-40 flex items-center justify-center -z-10 "></div>
 
           {/* Coursework */}
           <div className=" flex items-start">
@@ -64,7 +64,7 @@ const Contact = () => {
         <div className="absolute bg-[#0D1B2A] w-2000 h-1 right-0 top-4 flex items-center justify-center -z-10"></div>
 
         {/* **************************************** contact section **************************************************************************/}
-        <div  id="contact"  className="">
+        <div  id="contact"  className="mt-15">
           <h4 className="text-[#25a6eb] tracking-wider uppercase mb-5">
             contact
           </h4>

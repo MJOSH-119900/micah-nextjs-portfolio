@@ -68,7 +68,7 @@ const Form = () => {
             placeholder="Name: enter name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-             className="w-full text-xs  border border-[#25a6eb1a] rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
+             className="w-full text-xs  border border-[#25a6eb1a] dark:text-[#94A3B8] text-[#285483] rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
           />
           <input
             required
@@ -76,7 +76,7 @@ const Form = () => {
             placeholder="Email: name@gmail.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full text-xs  border border-[#25a6eb1a] rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
+            className="w-full text-xs  border border-[#25a6eb1a] dark:text-[#94A3B8] text-[#285483] rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
           />
        
         <input
@@ -85,7 +85,7 @@ const Form = () => {
           placeholder="Subject"
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
-          className="w-full text-xs  border border-[#25a6eb1a] rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
+          className="w-full text-xs  border border-[#25a6eb1a] dark:text-[#94A3B8] text-[#285483] rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
         />
 
         <textarea
@@ -94,12 +94,12 @@ const Form = () => {
           rows={4}
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="w-full text-xs border border-[#25a6eb1a] rounded-md px-3 py-3 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
+          className="w-full text-xs border border-[#25a6eb1a] dark:text-[#94A3B8] text-[#285483] rounded-md px-3 py-3 focus:outline-none focus:ring-1 focus:ring-[#25a6eb] focus:border-[#25a6eb]"
         ></textarea>
 
         <button
           type="submit"
-          className="border-2 border-[#2563EB] bg-[#2563EB] text-xs md:text-sm lg:text-base rounded-md px-5 py-2 tracking-normal hover:bg-[#07111F] hover:border-2 hover:border-[#2563EB]"
+          className="border-2 border-[#2563EB] bg-[#2563EB] text-white text-xs md:text-sm lg:text-base rounded-md px-5 py-2 tracking-normal dark:hover:bg-[#07111F] hover:border-2 hover:border-[#2563EB] hover:bg-[#2564ebec]"
         >
           Send Email
         </button>

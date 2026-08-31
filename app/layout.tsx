@@ -28,7 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${inter.variable} h-full antialiased`}
     >
 
-      <body className="bg-white text-black dark:bg-[#07111F] dark:text-[#F8FAFC] min-h-full flex flex-col scroll-smooth">
+      <body className="bg-white dark:bg-[#07111F] dark:text-[#F8FAFC] min-h-full flex flex-col scroll-smooth">
         <AppProvider>
           <Nav />
           {children}

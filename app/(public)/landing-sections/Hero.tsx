@@ -51,21 +51,24 @@ const Hero = () => {
           <p className="text-[#25a6eb] tracking-wider uppercase text-center md:text-start">
             Hello, I&apos;m Micah
           </p>
-          <h1 className="hidden lg:block">
+          {/* md to lg screen display  */}
+          <h1 className="hidden lg:block text-[#285483] dark:text-white">
             Mid-Level Front-End Engineer specializing in{" "}
             <span className="text-[#2563EB]">secure</span>,<br />
             <span className="text-[#2563EB]">high-performance </span> React{" "}
             <br /> and <span className="text-[#2563EB]">Next.js</span>{" "}
             applications.
           </h1>
-          <h3 className="block text-center md:text-start lg:hidden">
+          
+          {/* small screen display  */}
+          <h3 className="block text-center md:text-start lg:hidden text-[#285483] dark:text-white">
             Mid-Level Front-End Engineer specializing in{" "}
             <span className="text-[#2563EB]">secure</span>,<br />
             <span className="text-[#2563EB]">high-performance </span> React{" "}
             <br /> and <span className="text-[#2563EB]">Next.js</span>{" "}
             applications.
           </h3>
-          <p className="mb-4 text-xs md:text-sm lg:text-base text-justify md:text-start">
+          <p className="mb-4 text-xs md:text-sm lg:text-base text-justify md:text-start text-[#285483] dark:text-white">
             I combine a background in Cybersecurity with modern front-end <br />{" "}
             tools to build safe, accessible, ans fast web experiences. <br />{" "}
             clean code. Strong security, Great UX
@@ -74,17 +77,17 @@ const Hero = () => {
           {/* button */}
           <div className="flex items-center justify-start gap-6 whitespace-nowrap">
             <Link
-              href="#"
-              className="border-2 border-[#2563EB] bg-[#2563EB] flex items-center gap-3 p-1 lg:px-10 lg:py-2 rounded-sm hover:bg-[#07111F] hover:border-2 hover:border-[#2563EB]"
+              href="https://github.com/MJOSH-119900"
+              className="border-2 border-[#2563EB] bg-[#2563EB] flex items-center gap-3 p-1 lg:px-10 lg:py-2 rounded-sm dark:hover:bg-[#07111F] hover:border-2 hover:border-[#2563EB] hover:bg-[#2564ebec]"
             >
               <button className="text-xs md:text-sm lg:text-base ">View My Work</button> <ArrowRightIcon className="w-4 lg:10"/>
             </Link>
 
             <Link
-              href="#"
-              className="border-2 border-[#2563EB] flex items-center gap-3 p-1 lg:px-10 lg:py-2 rounded-sm hover:bg-[#2563EB]"
+              href="https://drive.google.com/file/d/18luNQP7DLuRJxMR3_c-7LC-Dj5B9t5Xh/view?usp=sharing"
+              className="border-2 border-[#2563EB] flex items-center gap-3 p-1 lg:px-10 lg:py-2 rounded-sm dark:hover:bg-[#2563EB] text-[#2563EB] dark:text-white hover:bg-[#28548323]"
             >
-              <button className="text-xs md:text-sm lg:text-base ">Download CV</button> <DownloadIcon className="w-4 lg:10"/>
+              <button className="text-xs md:text-sm lg:text-base text-[#2563EB] dark:text-white">Download CV</button> <DownloadIcon className="w-4 lg:10"/>
             </Link>
           </div>
         </div>
@@ -100,18 +103,18 @@ const Hero = () => {
             className="border-b-6 border-[#25a6eb15] md:border-0 rounded-b-lg block h-auto lg:max-w-md md:max-w-sm  overflow-hidden"
           />
 
-          <div className="absolute h-72 w-70  lg:w-100 lg:h-100 md:w-70 md:h-70 bg-[#0D1B2A] rounded-full shadow-md shadow-[#38BDF8] rotate-180 right-6 lg:top-8 md:right-0 -z-10"></div>
+          <div className="absolute h-72 w-70  lg:w-100 lg:h-100 md:w-70 md:h-70 dark:bg-[#0D1B2A] bg-[#2564eb09] rounded-full shadow-md dark:shadow-[#38BDF8] shadow-[#285483] rotate-180 right-6 lg:top-8 md:right-0 -z-10"></div>
         </div>
       </div>
 
-      <div className="bg-[#0d1b2a32] w-full mx-auto">
+      <div className="dark:bg-[#0d1b2a32] w-full mx-auto">
         <div className="flex items-center justify-around py-10">
-          <Image src="/images/security.svg" alt="shield image" width={40} height={40} className="bg-[#94a3b83b] rounded-2xl" />
+          <Image src="/images/security.svg" alt="shield image" width={40} height={40} className="dark:bg-[#94a3b83b] bg-[#2564eb49] rounded-2xl" />
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-20">
             {stats.map((stat: ProfileSummary) => {
               const Icons = stat.icon
               return (
-                <div key={stat.id} className="flex items-center justify-center  text-[#94A3B8]  py-2 gap-2">
+                <div key={stat.id} className="flex items-center justify-center  dark:text-[#94A3B8] text-[#285483] py-2 gap-2">
                   <Icons className={`${stat.icon}`} />
                   <div className="">
                     <h5>{stat.value}</h5>
@@ -121,7 +124,7 @@ const Hero = () => {
               )
             })}
           </div>
-          <Image src="/images/security.svg" alt="shield image" width={40} height={40} className="bg-[#94a3b83b] rounded-2xl" />
+          <Image src="/images/security.svg" alt="shield image" width={40} height={40} className="dark:bg-[#94a3b83b] bg-[#2564eb49] rounded-2xl" />
         </div>
       </div>
     </div>

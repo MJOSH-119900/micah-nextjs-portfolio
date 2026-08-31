@@ -1,51 +1,113 @@
 "use client";
 
-import React, { createContext, useContext, useState, useEffect } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 
-// 1. Define what info our app will share globally
 interface AppContextType {
-  user: string | null;            // Your Auth State
-  theme: "light" | "dark";        // Your Theme State
-  toggleTheme: () => void;        // Function to flip the theme
+  user: string | null;
+  setUser: (user: string | null) => void;
+
+  theme: "light" | "dark";
+  toggleTheme: () => void;
 }
 
-const AppContext = createContext<AppContextType | undefined>(undefined);
+const AppContext = createContext<AppContextType | undefined>(
+  undefined
+);
 
-export function AppProvider({ children }: { children: React.ReactNode }) {
-  const [user] = useState<string | null>("Alex"); // Example login user
+export function AppProvider({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const [user, setUser] = useState<string | null>(null);
+
   const [theme, setTheme] = useState<"light" | "dark">("light");
 
-  // Load the user's saved theme when the page opens
+  const [mounted, setMounted] = useState(false);
+
+  // Load saved values
   useEffect(() => {
-    const saved = localStorage.getItem("theme") as "light" | "dark";
-    if (saved) setTheme(saved);
+    const savedTheme = localStorage.getItem("theme");
+    const savedUser = localStorage.getItem("user");
+
+    if (
+      savedTheme === "light" ||
+      savedTheme === "dark"
+    ) {
+      setTheme(savedTheme);
+    }
+
+    if (savedUser) {
+      setUser(savedUser);
+    }
+
+    setMounted(true);
   }, []);
 
-  // Every time the theme changes, update the actual website background
+  // Apply and save theme
   useEffect(() => {
+    if (!mounted) return;
+
     const root = document.documentElement;
+
     if (theme === "dark") {
       root.classList.add("dark");
     } else {
       root.classList.remove("dark");
     }
+
     localStorage.setItem("theme", theme);
-  }, [theme]);
+  }, [theme, mounted]);
+
+  // Save user
+  useEffect(() => {
+    if (!mounted) return;
+
+    if (user) {
+      localStorage.setItem("user", user);
+    } else {
+      localStorage.removeItem("user");
+    }
+  }, [user, mounted]);
 
   const toggleTheme = () => {
-    setTheme((prev) => (prev === "light" ? "dark" : "light"));
+    setTheme((prev) =>
+      prev === "light" ? "dark" : "light"
+    );
   };
 
+  // Prevent rendering before localStorage loads
+  if (!mounted) {
+    return null;
+  }
+
   return (
-    <AppContext.Provider value={{ user, theme, toggleTheme }}>
+    <AppContext.Provider
+      value={{
+        user,
+        setUser,
+        theme,
+        toggleTheme,
+      }}
+    >
       {children}
     </AppContext.Provider>
   );
 }
 
-// 2. The short hook to grab this data anywhere in your app
 export const useApp = () => {
   const context = useContext(AppContext);
-  if (!context) throw new Error("useApp must be used inside AppProvider");
+
+  if (!context) {
+    throw new Error(
+      "useApp must be used inside AppProvider"
+    );
+  }
+
   return context;
 };

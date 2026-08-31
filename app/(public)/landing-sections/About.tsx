@@ -1,4 +1,4 @@
-import { ChartBarIncreasingIcon, LucideIcon } from "lucide-react";
+import { ChartBarIncreasingIcon, Fingerprint, GaugeCircle, KeyRound, Layers, LucideIcon, TrendingUp } from "lucide-react";
 import React from "react";
 import { BsPerson } from "react-icons/bs";
 
@@ -10,31 +10,32 @@ interface AboutCards {
   bgColor: string;
 }
 
+
 const aboutCards: AboutCards[] = [
   {
     id: 1,
-    icons: ChartBarIncreasingIcon,
+    icons: GaugeCircle,
     title: "Performance First",
     text: "Building fast, optimized interfaces with excellent Core web Vitals.",
     bgColor: "bg-[#0D1B2A]",
   },
   {
     id: 2,
-    icons: ChartBarIncreasingIcon,
+    icons: KeyRound,
     title: "Security Forcused",
     text: "Applying cybersecurity principles to protect users and application.",
     bgColor: "bg-[#0D1B2A]",
   },
   {
     id: 3,
-    icons: ChartBarIncreasingIcon,
+    icons: Layers,
     title: "Clean & Maintainable",
     text: "Writing reusable, modular and well-documented code.",
     bgColor: "bg-[#0D1B2A]",
   },
   {
     id: 4,
-    icons: ChartBarIncreasingIcon,
+    icons: Fingerprint,
     title: "Great User Experience",
     text: "Desiging inituitive interfaces that users love to use.",
     bgColor: "bg-[#0D1B2A]",
@@ -54,10 +55,10 @@ const About = () => {
             {/* icon and title */}
             <div className="flex items-start gap-2">
               <BsPerson className="md:min-w-15 md:min-h-15 min-w-10 min-h-10 border border-[#1E293B] rounded-lg" />
-              <h2 className="text-justify">Building secure, accessible and fast web experiences.</h2>
+              <h2 className="text-justify dark:text-white text-[#285483]">Building secure, accessible and fast web experiences.</h2>
             </div>
             <div className="flex flex-col gap-4">
-              <div className="flex flex-col gap-2 text-[14px] text-[#94A3B8] text-justify lg:text-start tracking-wide">
+              <div className="flex flex-col gap-2 text-[14px] dark:text-[#94A3B8] text-[#285483] text-justify lg:text-start tracking-wide">
                 <p>
                   I&apos;m a Frontend Developer with a Cybersecurity background.
                   I build responsive, accessible and high-performance
@@ -74,7 +75,7 @@ const About = () => {
           </div>
 
           {/* absolute vertical line */}
-          <div className="hidden md:block bg-[#0D1B2A] w-2 md:min-h-90 lg:min-h-85  left-0 top-0"></div>
+          <div className="hidden md:block dark:bg-[#0D1B2A] bg-[#28548323] dark:w-2 w-1 md:min-h-90 lg:min-h-85  left-0 top-0"></div>
 
           {/* 2nd */}
           <div className="grid grid-rows-1">
@@ -87,13 +88,13 @@ const About = () => {
                     className="flex flex-col md:flex-row items-center justify-center text-center md:text-start"
                   >
                     <div
-                      className={`md:min-h-40 md:max-w-70 p-2 lg:p-4 rounded-md shadow-sm shadow-[#38BDF8] ${cards.bgColor}`}
+                      className={`md:min-h-40 md:max-w-70 p-2 lg:p-4 rounded-md shadow-sm shadow-[#38BDF8] dark:${cards.bgColor}`}
                     >
                       <div className="flex items-center justify-center text-center md:items-start md:justify-start">
                         <Icon className={`min-w-10 min-h-10 ${cards.icons}`} />
                       </div>
-                      <h5 className="py-4">{cards.title}</h5>
-                      <p className=" text-[14px] text-[#94A3B8]">
+                      <h5 className="py-4 text-[#285483] dark:text-white">{cards.title}</h5>
+                      <p className=" text-[14px] dark:text-[#94A3B8] text-[#285483]">
                         {cards.text}
                       </p>
                     </div>
@@ -104,8 +105,8 @@ const About = () => {
           </div>
         </div>
         {/*card holders */}
-        <div className="absolute bg-[#0D1B2A] w-80 h-10 right-0 top-4 flex rounded-bl-full items-center justify-center -z-10"></div>
-        <div className="absolute bg-[#0D1B2A] w-2000 h-1 right-0 top-4 flex items-center justify-center -z-10"></div>
+        <div className="absolute dark:bg-[#0D1B2A] bg-[#28548323] w-80 h-10 right-0 top-4 flex rounded-bl-full items-center justify-center z-10"></div>
+        <div className="absolute dark:bg-[#0D1B2A] bg-[#28548323] w-2000 dark:h-1 h-px right-0 top-4 flex items-center justify-center -z-10"></div>
       </div>
     </div>
   );

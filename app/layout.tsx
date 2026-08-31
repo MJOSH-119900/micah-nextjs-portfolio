@@ -3,13 +3,14 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "./(public)/components/Nav";
 import Footer from "./(public)/components/Footer";
+import { AppProvider } from "./context/AppContext";
 
 const inter = Inter({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-export const viewport:  Viewport = {
+export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
 }
@@ -27,10 +28,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${inter.variable} h-full antialiased`}
     >
 
-      <body className="min-h-full flex flex-col scroll-smooth">
-        <Nav />
-        {children}
-        <Footer />
+      <body className="bg-white text-black dark:bg-[#07111F] dark:text-[#F8FAFC] min-h-full flex flex-col scroll-smooth">
+        <AppProvider>
+          <Nav />
+          {children}
+          <Footer />
+        </AppProvider>
       </body>
     </html>
   );

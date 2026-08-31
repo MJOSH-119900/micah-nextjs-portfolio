@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
+
+/* Tells Tailwind v4 to turn on dark mode when the <html> tag has the class "dark" */
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
-  --background: #07111F;
-  --foreground: #F8FAFC;
+  /* --background: #07111F;
+  --foreground: #F8FAFC; */
 }
 
 html {
@@ -30,8 +34,8 @@ html {
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  /* background: var(--background);
+  color: var(--foreground); */
   font-family: inter;
   font-size: clamp(1rem, 0.6vw + 0.85rem, 1.125rem);
   font-weight: 400;

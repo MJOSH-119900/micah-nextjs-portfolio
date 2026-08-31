@@ -6,15 +6,15 @@ import { FaCircleCheck } from "react-icons/fa6";
 const Skills = () => {
   return (
     <div id="skills" className="py-20">
-      <div className="w-[80%] mx-auto mt-15">
-        <h4 className="text-[#25a6eb] tracking-wider uppercase mb-5">
+      <div className="max-w-[80%] mx-auto">
+        <h4 className="text-[#25a6eb] tracking-wider uppercase mb-15 text-center md:text-start">
           technical skills
         </h4>
         {/* large screen -------------------------------------------------------------------------------------------- */}        
         <div className="flex items-center justify-center gap-4">
           <div className="relative hidden lg:flex">
             {/* 1st card core frameworks */}
-            <div className="absolute flex flex-col gap-5 items-center py-5 rounded-md dark:bg-[#0D1B2A]  text-[#285483] dark:text-white shadow-sm shadow-[#38BDF8] top-0 left-20 w-full min-w-85 min-h-40">
+            <div className="absolute flex flex-col gap-5 items-center py-5 rounded-md dark:bg-[#0D1B2A] bg-white text-[#285483] dark:text-white shadow-sm shadow-[#38BDF8] top-0 left-20 w-full min-w-85 min-h-40">
               <h5>Core Frameworks</h5>
               <div className="flex items-start justify-between gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center justify-between">
@@ -41,7 +41,7 @@ const Skills = () => {
             </div>
 
             {/* 2nd card styling and tools */}
-            <div className="absolute flex flex-col gap-5 items-center py-4 px-5 rounded-md dark:bg-[#0D1B2A]  text-[#285483] dark:text-white shadow-sm shadow-[#38BDF8] top-0 right-20 w-full min-w-90 max-h-40">
+            <div className="absolute flex flex-col gap-5 items-center py-4 px-5 rounded-md dark:bg-[#0D1B2A] bg-white  text-[#285483] dark:text-white shadow-sm shadow-[#38BDF8] top-0 right-20 w-full min-w-90 max-h-40">
               <h5>Security & Specialized</h5>
               <div className="flex items-start justify-between gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center justify-between">
@@ -64,16 +64,16 @@ const Skills = () => {
             </div>
 
             {/* absolute tree */}
-            <div className="dark:bg-[#0D1B2A] w-5 min-h-92 left-0 top-0 flex items-center justify-center  relative"></div>
+            <div className=" dark:bg-[#0D1B2A] bg-[#25a6eb15] w-5 min-h-92 left-0 top-0 flex items-center justify-center  relative"></div>
             {/*card holders */}
-            <div className="absolute dark:bg-[#0D1B2A] w-1000 h-5 left-5 top-4 flex items-center justify-center rounded-r-4xl -z-10"></div>
-            <div className="absolute dark:bg-[#0D1B2A] w-1000 h-5 right-5 top-10 flex items-center justify-center rounded-l-4xl -z-10"></div>
-            <div className="absolute dark:bg-[#0D1B2A] w-1000 h-5 right-5 top-56 flex items-center justify-center rounded-l-4xl -z-10"></div>
-            <div className="absolute dark:bg-[#0D1B2A] w-1000 h-5 left-5 top-62 flex items-center justify-center rounded-r-4xl -z-10"></div>
+            <div className="absolute  dark:bg-[#0D1B2A] bg-[#25a6eb15] w-1000 h-5 left-5 top-4 flex items-center justify-center rounded-r-4xl -z-10"></div>
+            <div className="absolute  dark:bg-[#0D1B2A] bg-[#25a6eb15] w-1000 h-5 right-5 top-10 flex items-center justify-center rounded-l-4xl -z-10"></div>
+            <div className="absolute  dark:bg-[#0D1B2A] bg-[#25a6eb15] w-1000 h-5 right-5 top-56 flex items-center justify-center rounded-l-4xl -z-10"></div>
+            <div className="absolute  dark:bg-[#0D1B2A] bg-[#25a6eb15] w-1000 h-5 left-5 top-62 flex items-center justify-center rounded-r-4xl -z-10"></div>
             {/* absolute tree */}
 
             {/* 3rd card */}
-            <div className="absolute flex flex-col gap-5 items-center p-5 rounded-md dark:bg-[#0D1B2A]  text-[#285483] dark:text-white shadow-sm shadow-[#38BDF8] top-52 left-20 max-w-90 max-h-40">
+            <div className="absolute flex flex-col gap-5 items-center p-5 rounded-md dark:bg-[#0D1B2A] bg-white text-[#285483] dark:text-white shadow-sm shadow-[#38BDF8] top-52 left-20 max-w-90 max-h-40">
               <h5>Languages</h5>
               <div className="flex items-start justify-between gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center justify-between">
@@ -120,7 +120,7 @@ const Skills = () => {
             </div>
 
             {/* 4th card */}
-            <div className=" absolute flex flex-col gap-5 items-center p-5 rounded-md dark:bg-[#0D1B2A]  text-[#285483] dark:text-white shadow-sm shadow-[#38BDF8] top-52 right-20 max-w-90 max-h-40">
+            <div className=" absolute flex flex-col gap-5 items-center p-5 rounded-md dark:bg-[#0D1B2A] bg-white text-[#285483] dark:text-white shadow-sm shadow-[#38BDF8] top-52 right-20 max-w-90 max-h-40">
               <h5>Styling and Tools</h5>
               <div className="flex items-start justify-between gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center justify-between">
@@ -175,7 +175,7 @@ const Skills = () => {
         <div className="relative md:block lg:hidden">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* 1st card core frameworks */}
-            <div className="flex flex-col gap-5 items-center p-5 rounded-md dark:bg-[#0D1B2A] shadow-sm shadow-[#38BDF8] max-w-90 max-h-40">
+            <div className="flex flex-col gap-5 items-center p-5 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8] max-w-90 max-h-40">
               <h5>Core Frameworks</h5>
               <div className="flex items-start justify-between gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center justify-between">
@@ -202,7 +202,7 @@ const Skills = () => {
             </div>
 
             {/* 2nd card styling and tools */}
-            <div className="flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] shadow-sm shadow-[#38BDF8] max-w-90 max-h-40">
+            <div className="flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8] max-w-90 max-h-40">
               <h5>Security & Specialized</h5>
               <div className="flex items-start justify-between gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center justify-between">
@@ -234,7 +234,7 @@ const Skills = () => {
             {/* absolute tree */}
 
             {/* 3rd card */}
-            <div className="flex flex-col gap-5 items-center p-5 rounded-md dark:bg-[#0D1B2A] shadow-sm shadow-[#38BDF8] max-w-90 max-h-40">
+            <div className="flex flex-col gap-5 items-center p-5 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8] max-w-90 max-h-40">
               <h5>Languages</h5>
               <div className="flex items-start justify-between gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center justify-between">
@@ -281,7 +281,7 @@ const Skills = () => {
             </div>
 
             {/* 4th card */}
-            <div className="flex flex-col gap-5 items-center p-5 rounded-md dark:bg-[#0D1B2A] shadow-sm shadow-[#38BDF8] max-w-90 max-h-40">
+            <div className="flex flex-col gap-5 items-center p-5 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8] max-w-90 max-h-40">
               <h5>Styling and Tools</h5>
               <div className="flex items-start justify-between gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center justify-between">

@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <div id="experience" className="py-20 relative">
       <div className="w-[80%] mx-auto mt-15">
-        <h4 className="text-[#25a6eb] tracking-wider uppercase mb-5">
+        <h4 className="text-[#25a6eb] tracking-wider uppercase mb-15 text-center md:text-start">
           Experience
         </h4>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-start justify-between gap-10 ">

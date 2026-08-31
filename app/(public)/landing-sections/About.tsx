@@ -23,7 +23,7 @@ const aboutCards: AboutCards[] = [
     id: 2,
     icons: KeyRound,
     title: "Security Forcused",
-    text: "Applying cybersecurity principles to protect users and application.",
+    text: "Applying cybersecurity principles to protect users and application. ",
     bgColor: "bg-[#0D1B2A]",
   },
   {
@@ -45,8 +45,8 @@ const aboutCards: AboutCards[] = [
 const About = () => {
   return (
     <div id="about" className="py-20 relative">
-      <div className="w-[80%] mx-auto mt-15">
-        <h4 className="text-[#25a6eb] tracking-wider uppercase mb-5">
+      <div className="w-[80%] mx-auto">
+        <h4 className="text-[#25a6eb] tracking-wider uppercase mb-15 text-center md:text-start">
           about me
         </h4>
         <div className="flex flex-col md:flex-row items-start justify-center text-[14px] gap-10">
@@ -88,7 +88,7 @@ const About = () => {
                     className="flex flex-col md:flex-row items-center justify-center text-center md:text-start"
                   >
                     <div
-                      className={`md:min-h-40 md:max-w-70 p-2 lg:p-4 rounded-md shadow-sm shadow-[#38BDF8] dark:${cards.bgColor}`}
+                      className={`md:min-h-50 md:max-w-70 p-2 lg:p-4 rounded-md shadow-sm shadow-[#38BDF8] dark:${cards.bgColor}`}
                     >
                       <div className="flex items-center justify-center text-center md:items-start md:justify-start">
                         <Icon className={`min-w-10 min-h-10 ${cards.icons}`} />

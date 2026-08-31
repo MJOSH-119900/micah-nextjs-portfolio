@@ -7,8 +7,8 @@ import { FaSquareUpRight } from "react-icons/fa6";
 const Projects = () => {
   return (
     <div id="project" className="py-20">
-      <div className="max-w-[80%] mx-auto mt-15">
-        <h4 className="text-[#25a6eb] tracking-wider uppercase mb-5">
+      <div className="max-w-[80%] mx-auto">
+        <h4 className="text-[#25a6eb] tracking-wider uppercase mb-15 text-center md:text-start">
           Featured Projects
         </h4>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

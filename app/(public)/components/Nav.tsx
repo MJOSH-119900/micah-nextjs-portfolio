@@ -77,7 +77,7 @@ const Nav = () => {
                 {/* small screen nav */}
                 <div className="lg:hidden">
                     <button onClick={handleToggle} className="absolute rounded-2xl hover:text-[#2563EB] focus:outline-none top-6 right-10 md:top-5 md:right-20 z-10">
-                        {!toggle ? (<MenuIcon className="h-8 w-8 md:h-10 md:w-10" />) : (<X className="h-8 w-8 md:h-10 md:w-10 stick top-0" />)}
+                        {!toggle ? (<MenuIcon className="h-8 w-8 md:h-10 md:w-10 text-[#285483]" />) : (<X className="h-8 w-8 md:h-10 md:w-10 stick top-0 text-[#2563EB] font-extrabold" />)}
                     </button>
 
                     <div className="absolute top-0 right-0 bg-[#13306de1] w-full overflow-y-hidden">

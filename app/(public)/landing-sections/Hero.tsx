@@ -48,7 +48,7 @@ const Hero = () => {
       <div className="flex flex-col-reverse md:flex-row items-end justify-between gap-10 md:gap-20 ">
         {/* hero write-up */}
         <div className="md:w-[60%] text-[16px] text-[#F8FAFC] flex flex-col gap-5 items-center justify-center md:mt-10 md:items-start md:gap-2">
-          <p className="text-[#25a6eb] tracking-wider uppercase text-center md:text-start">
+          <p className="text-[#25a6eb] tracking-wider uppercase text-center md:text-start mb-15 md:mb-0">
             Hello, I&apos;m Micah
           </p>
           {/* md to lg screen display  */}

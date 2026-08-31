@@ -59,7 +59,7 @@ const Form = () => {
   };
 
   return (
-    <div className="flex items-start rounded-md shadow-sm shadow-[#25a6eb] p-2">
+    <div className="flex items-start rounded-md shadow-sm shadow-[#25a6eb] p-2 ">
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-2 min-w-xs">
           <input

@@ -77,6 +77,7 @@ const Hero = () => {
           {/* button */}
           <div className="flex items-center justify-start gap-6 whitespace-nowrap">
             <Link
+              target="_blank" rel="noopener noreferrer" prefetch={false}
               href="https://github.com/MJOSH-119900"
               className="border-2 border-[#2563EB] bg-[#2563EB] flex items-center gap-3 p-1 lg:px-10 lg:py-2 rounded-sm dark:hover:bg-[#07111F] hover:border-2 hover:border-[#2563EB] hover:bg-[#2564ebec]"
             >
@@ -84,6 +85,7 @@ const Hero = () => {
             </Link>
 
             <Link
+              target="_blank" rel="noopener noreferrer" prefetch={false}
               href="https://drive.google.com/file/d/18luNQP7DLuRJxMR3_c-7LC-Dj5B9t5Xh/view?usp=sharing"
               className="border-2 border-[#2563EB] flex items-center gap-3 p-1 lg:px-10 lg:py-2 rounded-sm dark:hover:bg-[#2563EB] text-[#2563EB] dark:text-white hover:bg-[#28548323]"
             >

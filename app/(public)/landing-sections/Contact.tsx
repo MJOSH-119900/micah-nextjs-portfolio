@@ -161,7 +161,7 @@ const Contact = () => {
       </div>
 
       <Image
-        src="/images/laptop.png"
+        src="/images/Laptop.png"
         alt="logo"
         width={1000}
         height={40}

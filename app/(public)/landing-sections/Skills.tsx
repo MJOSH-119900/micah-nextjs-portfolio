@@ -23,7 +23,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-[14px]">React</p>
                 </div>
@@ -33,7 +33,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-[14px]">Next.js</p>
                 </div>
@@ -45,19 +45,19 @@ const Skills = () => {
               <h5>Security & Specialized</h5>
               <div className="flex items-start justify-between gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center justify-between">
-                  <FaShieldAlt className="w-8 h-8 text-[#2563EB]" />
+                  <FaShieldAlt className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8 text-[#2563EB]" />
                   <p className="text-[14px] text-center">Web Security</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
-                  <FaKey className="w-8 h-8 text-[#2563EB]" />
+                  <FaKey className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8 text-[#2563EB]" />
                   <p className="text-[14px]  text-center">NextAuth</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
-                  <FaCircleCheck className="w-8 h-8 text-[#2563EB]" />
+                  <FaCircleCheck className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8 text-[#2563EB]" />
                   <p className="text-[14px] text-center">Secure API </p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
-                  <FaKeyboard className="w-8 h-8 text-[#2563EB]" />
+                  <FaKeyboard className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8 text-[#2563EB]" />
                   <p className="text-[14px] text-center">Next.js</p>
                 </div>
               </div>
@@ -82,7 +82,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-[14px]">Tailwind CSS</p>
                 </div>
@@ -92,7 +92,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-[14px]">Next.js</p>
                 </div>
@@ -102,7 +102,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-[14px]">Tailwind CSS</p>
                 </div>
@@ -112,7 +112,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-[14px]">Next.js</p>
                 </div>
@@ -129,7 +129,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-[14px]">Tailwind CSS</p>
                 </div>
@@ -139,7 +139,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-[14px]">Next.js</p>
                 </div>
@@ -149,7 +149,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-[14px]">Tailwind CSS</p>
                 </div>
@@ -184,7 +184,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-xs md:text-sm">React</p>
                 </div>
@@ -194,7 +194,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-xs md:text-sm">Next.js</p>
                 </div>
@@ -243,7 +243,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-xs md:text-sm">Tailwind CSS</p>
                 </div>
@@ -253,7 +253,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-xs md:text-sm">Next.js</p>
                 </div>
@@ -263,7 +263,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-xs md:text-sm">Tailwind CSS</p>
                 </div>
@@ -273,7 +273,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-xs md:text-sm">Next.js</p>
                 </div>
@@ -290,7 +290,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-xs md:text-sm">Tailwind CSS</p>
                 </div>
@@ -300,7 +300,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-xs md:text-sm">Next.js</p>
                 </div>
@@ -310,7 +310,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className=""
+                    className="w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-xs md:text-sm">Tailwind CSS</p>
                 </div>
@@ -320,7 +320,7 @@ const Skills = () => {
                     alt="MJ logo"
                     width={30}
                     height={30}
-                    className="bg-white rounded-full"
+                    className="bg-white rounded-full w-3 h-3 md:w-5 md:h-5 lg:w-8 lg:h-8"
                   />
                   <p className="text-xs md:text-sm">Next.js</p>
                 </div>

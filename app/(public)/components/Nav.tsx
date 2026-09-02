@@ -66,7 +66,7 @@ const Nav = () => {
                             {/* <div className="bg-[#0D1B2A] p-2 items-center justify-center rounded-full"><LuMoon className='h-6 w-6' /></div> */}
                             <button
                                 onClick={toggleTheme}
-                                className={`dark:bg-[#0D1B2A] bg-[#25a6eb52] text-[#2563EB] p-2 items-center justify-center rounded-full`}
+                                className={`dark:bg-[#0D1B2A] bg-[#25a6eb52] text-[#2563EB] shadow-sm shadow-[#2563EB] dark:shadow-[#25a6eb52] p-2 items-center justify-center rounded-full`}
                             >
                                 {theme === "light" ? (<LuMoon className='h-6 w-6' />) : (<LuSun className='h-6 w-6' />)}
                             </button>

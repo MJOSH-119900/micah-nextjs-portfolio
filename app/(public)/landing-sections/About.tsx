@@ -91,7 +91,7 @@ const About = () => {
                       className={`md:min-h-50 md:max-w-70 p-2 lg:p-4 rounded-md shadow-sm shadow-[#38BDF8] dark:${cards.bgColor}`}
                     >
                       <div className="flex items-center justify-center text-center md:items-start md:justify-start">
-                        <Icon className={`min-w-10 min-h-10 ${cards.icons}`} />
+                        <Icon className={`min-w-10 min-h-10 text-blue-500 ${cards.icons}`} />
                       </div>
                       <h5 className="py-4 text-[#285483] dark:text-white">{cards.title}</h5>
                       <p className=" text-[14px] dark:text-[#94A3B8] text-[#285483]">

@@ -29,7 +29,7 @@ const Experience = () => {
             {/* 2nd experience */}
           <div className=" flex items-start gap-5">
             <div className="bg-linear-to-r from-[#0d1b2a86] w-15 h-15 via-[#25a6eb79] to-[#0d1b2a86] flex items-center justify-center rounded-full shrink-0">
-              <TbDeviceLaptop className="w-8 h-8" />
+              <TbDeviceLaptop className="w-8 h-8 text-blue-500" />
             </div>
               <div className="flex flex-col items-start justify-start gap-2 text-[#285483] dark:text-white">
                 <h5>2021 - 2023</h5>
@@ -55,7 +55,7 @@ const Experience = () => {
             {/* 4th experience */}
           <div className=" flex items-start gap-5 z-10">
             <div className="bg-linear-to-r from-[#0d1b2a86] w-15 h-15 via-[#25a6eb79] to-[#0d1b2a86] flex items-center justify-center rounded-full shrink-0">
-              <MdSecurity className="w-8 h-8" />
+              <MdSecurity className="w-8 h-8 text-blue-500" />
             </div>
               <div className="flex flex-col items-start justify-start gap-2 text-[#285483] dark:text-white">
                 <h5>2015 - 2021</h5>

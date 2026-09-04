@@ -72,7 +72,7 @@ const Contact = () => {
           <div className="flex flex-col-reverse lg:flex-row items-start justify-between gap-20 lg:gap-0">
             {/* Contacts  1st */}
             <div className="w-full flex flex-col items-start justify-center gap-10 md:gap-0 text-[12px] dark:bg-[#0d1b2a7c] bg-[#25a6eb52] dark:text-[#94A3B8] text-[#285483] px-5 min-h-71 rounded-md  relative">
-              <div className="w-full flex items-start lg:justify-center  gap-4 min-w-55 p-2 dark:bg-[#0d1b2a7c] bg-[#25a6eb52] shadow-xs shadow-[#38BDF8]">
+              <div className="w-full flex items-start lg:justify-start gap-4 min-w-55 p-4 dark:bg-[#0d1b2a7c] bg-[#25a6eb52] shadow-xs shadow-[#38BDF8]">
                 <MailIcon className="h-6 clas text-[#2563EB]" />
                 <div className="flex flex-col items-start">
                   <h6>Email</h6>
@@ -85,7 +85,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="w-full flex items-start lg:justify-center  gap-4 min-w-55 p-2 dark:bg-[#0d1b2a7c] bg-[#25a6eb52] shadow-xs shadow-[#38BDF8]">
+              <div className="w-full flex items-start lg:justify-start gap-4 min-w-55 p-4 dark:bg-[#0d1b2a7c] bg-[#25a6eb52] shadow-xs shadow-[#38BDF8]">
                 <PhoneIcon className="h-6 text-[#2563EB]" />
                 <div className="flex flex-col items-start">
                   <h6>Phone</h6>
@@ -98,7 +98,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="w-full flex items-start lg:justify-center  gap-4 min-w-55 p-2 dark:bg-[#0d1b2a7c] bg-[#25a6eb52] shadow-xs shadow-[#38BDF8]">
+              <div className="w-full flex items-start lg:justify-start gap-4 min-w-55 p-4 dark:bg-[#0d1b2a7c] bg-[#25a6eb52] shadow-xs shadow-[#38BDF8]">
                 <LocationEdit className="h-6 text-[#2563EB]" />
                 <div className="">
                   <h6 className="font-extrabold">Location</h6>
@@ -109,7 +109,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="w-full flex items-start lg:justify-center  gap-4 min-w-55 p-2 dark:bg-[#0d1b2a7c] bg-[#25a6eb52] shadow-xs shadow-[#38BDF8]">
+              <div className="w-full flex items-start lg:justify-start gap-4 min-w-55 p-4 dark:bg-[#0d1b2a7c] bg-[#25a6eb52] shadow-xs shadow-[#38BDF8]">
                 <Laptop2Icon className="h-6 text-[#2563EB]" />
                 <div className="">
                   <h6>Availablity</h6>

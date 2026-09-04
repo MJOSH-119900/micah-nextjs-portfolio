@@ -45,7 +45,7 @@ Prerequisites: Ensure you have **Node.js (v18 or higher)** and **npm/yarn** inst
 
 ---
 
-## 👥 Portfolio Candidate Identification
+## Portfolio Candidate Identification
 * **Applicant Name:** Micah Portfolio
 * **Application ID:** APP-2025-98101
 * **Role:** Frontend Developer

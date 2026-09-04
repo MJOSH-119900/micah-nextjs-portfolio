@@ -123,7 +123,7 @@ const Contact = () => {
               {/* Image on small - medium screen */}
               <div className="flex items-end justify-end">
                 <Image
-                  src="/images/Laptop.png"
+                  src="/laptop.png"
                   alt="logo"
                   width={1000}
                   height={40}
@@ -162,7 +162,7 @@ const Contact = () => {
                   </div>
                   {/* image laptop to large screen  */}
                   <Image
-                    src="/images/Laptop.png"
+                    src="/laptop.png"
                     alt="logo"
                     width={1000}
                     height={40}

@@ -102,6 +102,7 @@ const Hero = () => {
             alt="MJ logo"
             width={10000}
             height={490}
+            loading="eager"
             className="border-b-6 border-[#25a6eb15] md:border-0 rounded-b-lg block h-auto lg:max-w-md md:max-w-sm  overflow-hidden"
           />
 

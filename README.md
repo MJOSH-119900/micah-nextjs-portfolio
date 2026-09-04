@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Developer Portfolio Website
 
-## Getting Started
+A sleek, responsive, and highly optimized professional portfolio site designed to showcase my software engineering projects, technical skill stack, and background. 
 
-First, run the development server:
+🔗 **[Live Production Deployment](https://joshportfolio-rouge.vercel.app/)**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack & Architecture
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Framework:** Next.js (App Router) for hybrid static/server rendering and optimized performance.
+* **Language:** TypeScript for full type safety, robust components, and clean code maintenance.
+* **Styling:** Tailwind CSS for a utility-first, modern UI design system.
+* **State Management:** React `AppContext` API powering structural global states like user UI preferences.
+* **Theming:** Custom Dark Mode toggle integrated via custom hooks and native Tailwind configuration.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Key Features
 
-## Learn More
+* **Global Theme Sync:** Seamless toggle between Light and Dark mode using custom `AppContext` to handle client-side persistence and avoid flash-of-unstyled-content (FOUC).
+* **Responsive Fluid UI:** Fully optimized user experience across mobile, tablet, and desktop viewports using Tailwind's adaptive breakpoints.
+* **Dynamic Project Matrix:** Filterable showcase components linking to specific GitHub codebases and live applications.
+* **SEO & Analytics Ready:** Leveraging Next.js Metadata API for semantic layout, high performance scores, and search index optimization.
 
-To learn more about Next.js, take a look at the following resources:
+## How to Run Locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Prerequisites: Ensure you have **Node.js (v18 or higher)** and **npm/yarn** installed.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone this repository branch:
+   ```bash
+   git clone https://github.com
+   ```
+2. Navigate into the directory:
+   ```bash
+   cd your-portfolio-repo
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the local development server:
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) inside your browser to view the application.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👥 Portfolio Candidate Identification
+* **Applicant Name:** Micah Portfolio
+* **Application ID:** APP-2025-98101
+* **Role:** Frontend Developer

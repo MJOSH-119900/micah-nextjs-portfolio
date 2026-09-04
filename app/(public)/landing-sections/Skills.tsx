@@ -177,7 +177,7 @@ const Skills = () => {
             {/* 1st card core frameworks */}
             <div className="w-full max-w-sm flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8]">
               <h5>Core Frameworks</h5>
-              <div className="w-full flex flex-wrap items-start justify-center gap-10 dark:text-[#94A3B8] text-[#285483]">
+              <div className="w-full flex items-start justify-center gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center">
                   <Image
                     src="/images/react.svg"
@@ -205,7 +205,7 @@ const Skills = () => {
             <div className="w-full max-w-sm flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8]">
               <h5>Security & Specialized</h5>
 
-              <div className="w-full flex flex-wrap items-start justify-center gap-6 dark:text-[#94A3B8] text-[#285483]">
+              <div className="w-full flex items-start justify-center gap-6 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center">
                   <FaShieldAlt className="w-5 h-5 lg:h-6 lg:w-6 text-[#2563EB]" />
                   <p className="text-xs md:text-sm text-center">Web Security</p>
@@ -240,7 +240,7 @@ const Skills = () => {
             {/* 3rd card */}
             <div className="w-full max-w-sm flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8]">
               <h5>Languages</h5>
-              <div className="w-full flex flex-wrap items-start justify-center gap-10 dark:text-[#94A3B8] text-[#285483]">
+              <div className="w-full flex items-start justify-center gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center">
                   <Image
                     src="/images/javascript.svg"
@@ -287,7 +287,7 @@ const Skills = () => {
             {/* 4th card */}
             <div className="w-full max-w-sm flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8]">
               <h5>Styling and Tools</h5>
-              <div className="w-full flex flex-wrap items-start justify-center gap-10 dark:text-[#94A3B8] text-[#285483]">
+              <div className="w-full flex items-start justify-center gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center">
                   <Image
                     src="/images/tailwindcss.svg"

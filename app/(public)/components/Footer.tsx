@@ -2,7 +2,7 @@ import { ArrowUp, CopyrightIcon } from "lucide-react"
 const Footer = () => {
     return (
         <div className="relative">
-            <div className="w-[80%] mx-auto py-6">
+            <div className="container-custom py-6">
                 <div className="flex flex-col md:flex-row items-center md:justify-between gap-5">
                     <div className="flex flex-col md:flex-row items-center text-[#2563EB] dark:text-white md:gap-10">
                         <h2>M.J</h2>

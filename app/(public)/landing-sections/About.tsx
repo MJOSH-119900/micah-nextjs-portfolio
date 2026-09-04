@@ -45,8 +45,8 @@ const aboutCards: AboutCards[] = [
 const About = () => {
   return (
     <div id="about" className="py-20 relative">
-      <div className="w-[80%] mx-auto">
-        <h4 className="text-[#25a6eb] tracking-wider uppercase mb-15 text-center md:text-start">
+      <div className="container-custom">
+        <h4 className="text-[#25a6eb] tracking-wider uppercase mb-15 text-center md:text-start mt-20 md:mt-0">
           about me
         </h4>
         <div className="flex flex-col md:flex-row items-start justify-center text-[14px] gap-10">
@@ -54,8 +54,9 @@ const About = () => {
           <div className="w-full md:w-[60%] lg:md:w-[40%] flex flex-col md:items-start gap-2 md:gap-6 relative">
             {/* icon and title */}
             <div className="flex items-start gap-2">
-              <BsPerson className="md:min-w-15 md:min-h-15 min-w-10 min-h-10 border border-[#1E293B] rounded-lg" />
-              <h2 className="text-justify dark:text-white text-[#285483]">Building secure, accessible and fast web experiences.</h2>
+              <BsPerson className="md:min-w-15 md:min-h-15 min-w-10 min-h-10 border dark:border-[#94A3B8] border-[#285483] dark:text-[#94A3B8] text-[#285483] rounded-lg" />
+              <h2 className="block md:hidden lg:block text-justify dark:text-white text-[#285483]">Building secure, accessible and fast web experiences.</h2>
+              <h2 className="hidden md:block lg:hidden text-center dark:text-white text-[#285483]">Building secure, accessible and fast web experiences.</h2>
             </div>
             <div className="flex flex-col gap-4">
               <div className="flex flex-col gap-2 text-[14px] dark:text-[#94A3B8] text-[#285483] text-justify lg:text-start tracking-wide">
@@ -75,33 +76,35 @@ const About = () => {
           </div>
 
           {/* absolute vertical line */}
-          <div className="hidden md:block dark:bg-[#0D1B2A] bg-[#28548323] dark:w-2 w-1 md:min-h-90 lg:min-h-85  left-0 top-0"></div>
+          <div className="hidden md:block dark:bg-[#0D1B2A] bg-[#28548323] dark:w-2 w-1 md:min-h-110 left-0 top-0"></div>
 
-          {/* 2nd */}
-          <div className="grid grid-rows-1">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4">
-              {aboutCards.map((cards: AboutCards) => {
-                const Icon = cards.icons;
-                return (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4">
+            {aboutCards.map((cards: AboutCards) => {
+              const Icon = cards.icons;
+
+              return (
+                <div
+                  key={cards.id}
+                  className="w-full flex items-stretch"
+                >
                   <div
-                    key={cards.id}
-                    className="flex flex-col md:flex-row items-center justify-center text-center md:text-start"
+                    className={`w-full min-h-55 p-4 rounded-md shadow-sm shadow-[#38BDF8] flex flex-col gap-4`}
                   >
-                    <div
-                      className={`md:min-h-50 md:max-w-70 p-2 lg:p-4 rounded-md shadow-sm shadow-[#38BDF8] dark:${cards.bgColor}`}
-                    >
-                      <div className="flex items-center justify-center text-center md:items-start md:justify-start">
-                        <Icon className={`min-w-10 min-h-10 text-blue-500 ${cards.icons}`} />
-                      </div>
-                      <h5 className="py-4 text-[#285483] dark:text-white">{cards.title}</h5>
-                      <p className=" text-[14px] dark:text-[#94A3B8] text-[#285483]">
-                        {cards.text}
-                      </p>
+                    <div className="flex items-center justify-center md:justify-start">
+                      <Icon className="w-10 h-10 text-blue-500 " />
                     </div>
+
+                    <h5 className="py-4 text-[#285483] dark:text-white">
+                      {cards.title}
+                    </h5>
+
+                    <p className="text-[14px] dark:text-[#94A3B8] text-[#285483]">
+                      {cards.text}
+                    </p>
                   </div>
-                );
-              })}
-            </div>
+                </div>
+              );
+            })}
           </div>
         </div>
         {/*card holders */}

@@ -7,20 +7,22 @@ import { FaSquareUpRight } from "react-icons/fa6";
 const Projects = () => {
   return (
     <div id="project" className="py-20">
-      <div className="max-w-[80%] mx-auto">
+      <div className="container-custom">
         <h4 className="text-[#25a6eb] tracking-wider uppercase mb-15 text-center md:text-start">
           Featured Projects
         </h4>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-            {/* 1st */}
+          {/* 1st */}
           <div className="flex flex-col gap-2 shadow-sm shadow-[#25a6eb] dark:bg-[#0D1B2A] dark:text-white text-[#285483] rounded-md p-5">
-            <Image
-              src="/shobhub.png"
-              alt=""
-              width={1000}
-              height={50}
-              className=" max-h-40 object-full rounded-md "
-            />
+             <div className="relative w-full h-64 overflow-hidden rounded-md">
+              <Image
+                src="/shobhub.png"
+                alt="ShopHub project"
+                fill
+                sizes="(max-width: 768px) 100vw, 40vw"
+                className="object-fit"
+              />
+            </div>
             <div className="flex items-center gap-10">
               <h3 className="text-[#25a6eb]">01</h3>
               <h4>ShopHub E-commerce</h4>
@@ -67,6 +69,7 @@ const Projects = () => {
               </div>
               <div className="flex items-center gap-4">
                 <Link
+                  target="_blank"  rel="noopener noreferrer" prefetch={false}
                   href="https://variety-shophub.netlify.app/"
                   className="flex items-center text-[14px] text-[#25a6eb] font-semibold gap-2"
                 >
@@ -74,6 +77,7 @@ const Projects = () => {
                 </Link>{" "}
                 |
                 <Link
+                  target="_blank"  rel="noopener noreferrer" prefetch={false}
                   href="https://github.com/ekekasiemobi/shophub"
                   className="flex items-center text-[14px] text-[#25a6eb] font-semibold gap-2"
                 >
@@ -83,15 +87,17 @@ const Projects = () => {
             </div>
           </div>
 
-            {/*2nd */}
+          {/*2nd */}
           <div className="flex flex-col gap-2 shadow-sm shadow-[#25a6eb] dark:bg-[#0D1B2A] dark:text-white text-[#285483] rounded-md p-5">
-            <Image
-              src="/vendora.png"
-              alt=""
-              width={1000}
-              height={50}
-              className="max-h-40 object-full rounded-md "
-            />
+            <div className="relative w-full h-64 overflow-hidden rounded-md">
+              <Image
+                src="/vendora.png"
+                alt="Vendora project"
+                fill
+                sizes="(max-width: 768px) 100vw, 40vw"
+                className="object-fit"
+              />
+            </div>
             <div className="flex items-center gap-10">
               <h3 className="text-[#25a6eb]">02</h3>
               <h4>Vendora E-commerce</h4>
@@ -119,7 +125,7 @@ const Projects = () => {
                 </p>
               </div>
               <div className="flex items-center gap-2">
-                <Check className="text-green-600" /> 
+                <Check className="text-green-600" />
                 <p className="text-xs md:text-sm">Rate limiting & security best practices</p>
               </div>
               <div className="flex items-center justify-between gap-1 lg:gap-4 md:mt-5 lg:mt-0">
@@ -138,13 +144,15 @@ const Projects = () => {
               </div>
               <div className="flex items-center gap-4">
                 <Link
-                  href="https://vendora-cart.netlify.app/"
+                  target="_blank"  rel="noopener noreferrer" prefetch={false}
+                  href="https://vendora-cart.vercel.app"
                   className="flex items-center text-[14px] text-[#25a6eb] font-semibold gap-2"
                 >
                   Live Demo <FaSquareUpRight />
                 </Link>{" "}
                 |
                 <Link
+                  target="_blank"  rel="noopener noreferrer" prefetch={false}
                   href="https://github.com/BintaHL/market-square"
                   className="flex items-center text-[14px] text-[#25a6eb] font-semibold gap-2"
                 >
@@ -154,16 +162,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
-        {/* Button */}
-        {/* <div className="mt-10 flex items-center justify-center">
-          <Link
-              href="#"
-              className="border-2 border-[#2563EB] flex items-center gap-3 p-1 lg:px-10 lg:py-2 rounded-sm  dark:hover:bg-[#2563EB] text-[#2563EB] dark:text-white hover:bg-[#28548323]"
-            >
-              <button className="text-xs md:text-sm lg:text-base flex items-center justify-center">See More</button> <ArrowRight className="w-4 lg:10"/>
-            </Link>  */}
-        {/* </div> */}
       </div>
     </div>
   );

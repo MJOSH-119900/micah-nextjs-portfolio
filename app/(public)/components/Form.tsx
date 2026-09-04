@@ -59,9 +59,9 @@ const Form = () => {
   };
 
   return (
-    <div className="flex items-start rounded-md shadow-sm shadow-[#25a6eb] p-2">
+    <div className="w-full flex items-start rounded-md shadow-sm shadow-[#25a6eb] p-2">
 
-      <form onSubmit={handleSubmit} className="flex flex-col gap-2 min-w-xs">
+      <form onSubmit={handleSubmit} className="w-full flex flex-col gap-2">
           <input
             required
             type="text"

@@ -44,7 +44,7 @@ const stats: ProfileSummary[] = [
 
 const Hero = () => {
   return (
-    <div id="home" className="max-w-[80%] min-h-screen mx-auto">
+    <div id="home" className="container-custom md:min-h-screen">
       <div className="flex flex-col-reverse md:flex-row items-end justify-between gap-10 md:gap-20 ">
         {/* hero write-up */}
         <div className="md:w-[60%] text-[16px] text-[#F8FAFC] flex flex-col gap-5 items-center justify-center md:mt-10 md:items-start md:gap-2">
@@ -105,7 +105,7 @@ const Hero = () => {
             className="border-b-6 border-[#25a6eb15] md:border-0 rounded-b-lg block h-auto lg:max-w-md md:max-w-sm  overflow-hidden"
           />
 
-          <div className="absolute h-72 w-70  lg:w-100 lg:h-100 md:w-70 md:h-70 dark:bg-[#0D1B2A] bg-[#2564eb09] rounded-full shadow-md dark:shadow-[#38BDF8] shadow-[#285483] rotate-180 right-6 lg:top-8 md:right-0 -z-10"></div>
+          <div className="absolute h-72 w-70  lg:w-100 lg:h-100 md:w-70 md:h-70 dark:bg-[#0D1B2A] bg-[#2564eb09] rounded-full shadow-md dark:shadow-[#38BDF8] shadow-[#285483] rotate-180 right-6 lg:top-8 -z-10"></div>
         </div>
       </div>
 

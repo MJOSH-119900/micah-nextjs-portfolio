@@ -175,7 +175,7 @@ const Skills = () => {
         <div className="relative md:block lg:hidden">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* 1st card core frameworks */}
-            <div className="w-full max-w-sm flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8]">
+            <div className="w-full max-w-sm min-h-40 flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8]">
               <h5>Core Frameworks</h5>
               <div className="w-full flex items-start justify-center gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center">
@@ -202,7 +202,7 @@ const Skills = () => {
             </div>
 
             {/* 2nd card styling and tools */}
-            <div className="w-full max-w-sm flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8]">
+            <div className="w-full max-w-sm min-h-40 flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8]">
               <h5>Security & Specialized</h5>
 
               <div className="w-full flex items-start justify-center gap-6 dark:text-[#94A3B8] text-[#285483]">
@@ -238,7 +238,7 @@ const Skills = () => {
             {/* absolute tree */}
 
             {/* 3rd card */}
-            <div className="w-full max-w-sm flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8]">
+            <div className="w-full max-w-sm min-h-40 flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8]">
               <h5>Languages</h5>
               <div className="w-full flex items-start justify-center gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center">
@@ -285,7 +285,7 @@ const Skills = () => {
             </div>
 
             {/* 4th card */}
-            <div className="w-full max-w-sm flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8]">
+            <div className="w-full max-w-sm min-h-40 flex flex-col gap-5 items-center p-4 rounded-md dark:bg-[#0D1B2A] bg-white shadow-sm shadow-[#38BDF8]">
               <h5>Styling and Tools</h5>
               <div className="w-full flex items-start justify-center gap-10 dark:text-[#94A3B8] text-[#285483]">
                 <div className="flex flex-col gap-2 items-center">

@@ -91,7 +91,7 @@ const Nav = () => {
 
                     {/* Mobile Menu Overlay */}
                     {toggle && (
-                        <div className="fixed inset-0 top-20.5 z-40 w-full overflow-y-auto bg-[#132f6db9]">
+                        <div className="fixed inset-0 top-20.5 z-40 w-full overflow-y-auto bg-[#132f6dd5]">
                             <div className="flex min-h-screen flex-col items-center justify-start overflow-y-auto pt-24 pb-10">
                                 <div className="flex w-full max-w-sm flex-col items-start gap-6 px-10 font-bold">
 

@@ -28,21 +28,11 @@ const Projects = () => {
               <h4>ShopHub E-commerce</h4>
             </div>
             <p className="text-xs md:text-sm text-[#285483] dark:text-white">
-              Full-stack Next.js app with secure authentication, <br />{" "}
-              role-based access control, and protected routes
+              Full-stack Next.js app featuring a comprehensive admin dashboard, secure authentication,
+              role-based access control, and protected routes.
             </p>
 
             <div className="flex flex-col text-[#285483] dark:text-white items-start gap-2">
-              <div className="flex items-center gap-2">
-                <Check className="text-green-600" />
-                <p className="text-xs md:text-sm">
-                  NextAuth for secure authentication
-                </p>
-              </div>
-              <div className="flex items-center gap-2">
-                <Check className="text-green-600" />
-                <p className="text-xs md:text-sm">Role-based access (Admin / User)</p>
-              </div>
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
                 <p className="text-xs md:text-sm">
@@ -51,7 +41,17 @@ const Projects = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
-                <p className="text-xs md:text-sm">Optimized for performance</p>
+                <p className="text-xs md:text-sm">Admin dashboard layout with management interfaces</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <Check className="text-green-600" />
+                <p className="text-xs md:text-sm">
+                  Role-based access for Admin/Users
+                </p>
+              </div>
+              <div className="flex items-center gap-2">
+                <Check className="text-green-600" />
+                <p className="text-xs md:text-sm">Dedicated customer management and business analytics pages</p>
               </div>
               <div className="flex items-center justify-between gap-1 lg:gap-4">
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
@@ -61,10 +61,10 @@ const Projects = () => {
                   <p className="text-xs md:text-sm text-[#285483] dark:text-white">React</p>
                 </div>
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-xs md:text-sm text-[#285483] dark:text-white">Tailwind CSS</p>
+                  <p className="text-xs md:text-sm text-[#285483] dark:text-white">TypeScript</p>
                 </div>
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-xs md:text-sm text-[#285483] dark:text-white">NextAuth</p>
+                  <p className="text-xs md:text-sm text-[#285483] dark:text-white">TailwindCSS</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -100,7 +100,7 @@ const Projects = () => {
             </div>
             <div className="flex items-center gap-10">
               <h3 className="text-[#25a6eb]">02</h3>
-              <h4>Vendora E-commerce</h4>
+              <h4>Carts E-commerce</h4>
             </div>
             <p className="text-xs md:text-sm text-[#285483] dark:text-white">
               Modern e-commerce platform with Next.js<br />{" "}
@@ -111,32 +111,35 @@ const Projects = () => {
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
                 <p className="text-xs md:text-sm">
-                  Ensuring checkout & payment integration
+                  Complete Auth Flow: User registration, sign-in, and forgot password flows
                 </p>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
-                <p className="text-xs md:text-sm">Server-side rendering for better SEO</p>
+                <p className="text-xs md:text-sm">Role-based access control (RBAC) and robust protected routing</p>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
                 <p className="text-xs md:text-sm">
-                  Input Validation & secure data handling
+                  Secure API architecture with input validation and data handling
                 </p>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
-                <p className="text-xs md:text-sm">Security best practices</p>
+                <p className="text-xs md:text-sm">Hybrid rendering using both Server-Side (SSR) and Client-Side rendering</p>
               </div>
-              <div className="flex items-center justify-between gap-1 lg:gap-4 md:mt-5 lg:mt-0">
+              <div className="flex items-center justify-between gap-1 lg:gap-4 md:mt-5 lg:mt-0 whitespace-pre-wrap">
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
                   <p className="text-xs md:text-sm text-[#285483] dark:text-white">Next.js</p>
                 </div>
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-xs md:text-sm text-[#285483] dark:text-white">React</p>
+                  <p className="text-xs md:text-sm text-[#285483] dark:text-white">TypeScript</p>
                 </div>
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-xs md:text-sm text-[#285483] dark:text-white">Tailwind CSS</p>
+                  <p className="text-xs md:text-sm text-[#285483] dark:text-white">TailwindCSS</p>
+                </div>                
+                <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
+                  <p className="text-xs md:text-sm text-[#285483] dark:text-white">NextAuth</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">

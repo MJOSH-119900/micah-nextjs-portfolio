@@ -94,7 +94,7 @@ const Skills = () => {
                     height={30}
                     className="w-5 md:h-5 lg:w-8 lg:h-8"
                   />
-                  <p className="text-[14px]">Next.js</p>
+                  <p className="text-[14px]">TypeScript</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <Image
@@ -114,7 +114,7 @@ const Skills = () => {
                     height={30}
                     className="w-5 md:h-5 lg:w-8 lg:h-8"
                   />
-                  <p className="text-[14px]">Next.js</p>
+                  <p className="text-[14px]">CSS</p>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@ const Skills = () => {
                     height={30}
                     className="w-5 md:h-5 lg:w-8 lg:h-8"
                   />
-                  <p className="text-[14px]">Next.js</p>
+                  <p className="text-[14px]">VsCode</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <Image
@@ -161,7 +161,7 @@ const Skills = () => {
                     height={30}
                     className="bg-white rounded-full"
                   />
-                  <p className="text-[14px]">Next.js</p>
+                  <p className="text-[14px]">GitHub</p>
                 </div>
               </div>
             </div>
@@ -259,7 +259,7 @@ const Skills = () => {
                     height={30}
                     className="w-5 md:h-5 lg:w-8 lg:h-8"
                   />
-                  <p className="text-xs md:text-sm">Next.js</p>
+                  <p className="text-xs md:text-sm">TypeScript</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <Image
@@ -279,7 +279,7 @@ const Skills = () => {
                     height={30}
                     className="w-5 md:h-5 lg:w-8 lg:h-8"
                   />
-                  <p className="text-xs md:text-sm">Next.js</p>
+                  <p className="text-xs md:text-sm">CSS</p>
                 </div>
               </div>
             </div>
@@ -306,7 +306,7 @@ const Skills = () => {
                     height={30}
                     className="w-5 md:h-5 lg:w-8 lg:h-8"
                   />
-                  <p className="text-xs md:text-sm">Next.js</p>
+                  <p className="text-xs md:text-sm">VsCode</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center justify-between">
                   <Image
@@ -326,7 +326,7 @@ const Skills = () => {
                     height={30}
                     className="bg-white rounded-full w-5 md:h-5 lg:w-8 lg:h-8"
                   />
-                  <p className="text-xs md:text-sm">Next.js</p>
+                  <p className="text-xs md:text-sm">Github</p>
                 </div>
               </div>
             </div>

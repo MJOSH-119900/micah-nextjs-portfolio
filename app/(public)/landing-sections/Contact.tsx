@@ -71,7 +71,7 @@ const Contact = () => {
           {/* contact, form and Contact Banner text */}
           <div className="flex flex-col-reverse lg:flex-row items-start justify-between gap-20 lg:gap-0">
             {/* Contacts  1st */}
-            <div className="w-full flex flex-col items-start justify-center gap-10 md:gap-0 text-[12px] dark:bg-[#0d1b2a7c] bg-[#25a6eb52] dark:text-[#94A3B8] text-[#285483] px-5 min-h-71 rounded-md">
+            <div className="w-full flex flex-col items-start justify-center gap-10 md:gap-0 text-[12px] dark:bg-[#0d1b2a7c] bg-[#25a6eb52] dark:text-[#94A3B8] text-[#285483] px-5 min-h-71 rounded-md  relative">
               <div className="w-full flex items-start lg:justify-center  gap-4 min-w-55 p-2 dark:bg-[#0d1b2a7c] bg-[#25a6eb52] shadow-xs shadow-[#38BDF8]">
                 <MailIcon className="h-6 clas text-[#2563EB]" />
                 <div className="flex flex-col items-start">
@@ -119,6 +119,17 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
+
+              {/* Image on small - medium screen */}
+              <div className="flex items-end justify-end">
+                <Image
+                  src="/images/Laptop.png"
+                  alt="logo"
+                  width={1000}
+                  height={40}
+                  className="w-70 md:w-100 lg:min-w-xs object-cover absolute -z-10 bottom-12 md:bottom-0 right-0 lg:hidden"
+                />
+              </div>
             </div>
 
             {/* Form for small and large screen */}
@@ -133,41 +144,41 @@ const Contact = () => {
                 <h3 className="">
                   Let's{" "}
                   <span className="text-[#2563EB] font-extrabold px-0.5">
-                    build something 
+                    build something
                   </span>
-                   great together!
+                  great together!
                 </h3>
-                <div className="text-[14px] dark:text-[#94A3B8] text-white flex flex-col items-center justify-center gap-20 lg:gap-20">
+                <div className="text-[14px] dark:text-[#94A3B8] text-white w-full flex flex-col items-center justify-center gap-20 lg:gap-20 relative">
                   <div className="flex items-center justify-center  text-justify font-bold ">
                     <p>Have a project in mind or just want to say hello? I'd love
-                    to hear from you.</p>
+                      to hear from you.</p>
                   </div>
 
-                  <div className="flex items-center gap-10 dark:text-[#94A3B8] text-[#2563EB] shadow-sm shadow-[#2563EB] rounded-sm p-2 -mb-10">
-                    <Link target="_blank"  rel="noopener noreferrer" prefetch={false} href="http://www.linkedin.com/in/joshua-micah-41a409161" className=" bg-white dark:bg-transparent rounded-full shadow-sm shadow-[#2563EB]"><FaLinkedin className="w-6 h-6 rounded-full shadow-sm shadow-[#2563EB]" /></Link>
-                    <Link target="_blank"  rel="noopener noreferrer" prefetch={false} href="https://github.com/MJOSH-119900" className=" bg-white dark:bg-transparent rounded-full shadow-sm shadow-[#2563EB]"><FaGithub className="w-6 h-6" /></Link>
-                    <Link target="_blank"  rel="noopener noreferrer" prefetch={false} href="https://www.facebook.com/profile.php?id=100091890610919" className=" bg-white dark:bg-transparent rounded-full shadow-sm shadow-[#2563EB]"><FaFacebook className="w-6 h-6" /></Link>
-                    <Link target="_blank"  rel="noopener noreferrer" prefetch={false} href="https://discord.com/channels/@me" className=" bg-white dark:bg-transparent rounded-full shadow-sm shadow-[#2563EB]"><FaDiscord className="w-6 h-6" /></Link>   
+                  <div className="flex items-center gap-10 dark:text-[#94A3B8] text-[#2563EB] shadow-sm shadow-[#2563EB] rounded-sm p-2 mb-0 md:-mb-10 lg:mb-0">
+                    <Link target="_blank" rel="noopener noreferrer" prefetch={false} href="http://www.linkedin.com/in/joshua-micah-41a409161" className=" bg-white dark:bg-transparent rounded-full shadow-sm shadow-[#2563EB]"><FaLinkedin className="w-6 h-6 rounded-full shadow-sm shadow-[#2563EB]" /></Link>
+                    <Link target="_blank" rel="noopener noreferrer" prefetch={false} href="https://github.com/MJOSH-119900" className=" bg-white dark:bg-transparent rounded-full shadow-sm shadow-[#2563EB]"><FaGithub className="w-6 h-6" /></Link>
+                    <Link target="_blank" rel="noopener noreferrer" prefetch={false} href="https://www.facebook.com/profile.php?id=100091890610919" className=" bg-white dark:bg-transparent rounded-full shadow-sm shadow-[#2563EB]"><FaFacebook className="w-6 h-6" /></Link>
+                    <Link target="_blank" rel="noopener noreferrer" prefetch={false} href="https://discord.com/channels/@me" className=" bg-white dark:bg-transparent rounded-full shadow-sm shadow-[#2563EB]"><FaDiscord className="w-6 h-6" /></Link>
                   </div>
+                  {/* image laptop to large screen  */}
+                  <Image
+                    src="/images/Laptop.png"
+                    alt="logo"
+                    width={1000}
+                    height={40}
+                    className="w-70 md:w-100 lg:min-w-xs object-cover absolute -z-10 bottom-8 hidden lg:block"
+                  />
                 </div>
               </div>
 
-               {/* Form for medium screen */}
-            <div className="w-full hidden md:flex md:bg-white lg:hidden">
-              <Form />
-            </div>
+              {/* Form for medium screen */}
+              <div className="w-full hidden md:flex md:bg-white lg:hidden">
+                <Form />
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <Image
-        src="/images/Laptop.png"
-        alt="logo"
-        width={1000}
-        height={40}
-        className="w-70 md:w-100 lg:min-w-xs object-cover -z-10 absolute bottom-25 md:bottom-10 lg:bottom-25 right-9 md:right-25 lg:right-10"
-      />
     </div>
   );
 };

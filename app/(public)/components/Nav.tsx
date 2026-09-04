@@ -117,7 +117,7 @@ const Nav = () => {
                                     </div>
 
                                     {/* Social Links */}
-                                    <div className="flex items-center gap-5 pt-4 text-white">
+                                    <div className="flex items-center gap-10 pt-4 text-white text-lg">
                                         <Link target="_blank" rel="noopener noreferrer" prefetch={false} href="http://www.linkedin.com/in/joshua-micah-41a409161"><FaLinkedin /></Link>
                                         <Link target="_blank" rel="noopener noreferrer" prefetch={false} href="https://github.com/MJOSH-119900"><FaGithub /></Link>
                                         <Link target="_blank" rel="noopener noreferrer" prefetch={false} href="https://www.facebook.com/profile.php?id=100091890610919"><FaFacebook /></Link>

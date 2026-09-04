@@ -103,7 +103,7 @@ const Projects = () => {
               <h4>Vendora E-commerce</h4>
             </div>
             <p className="text-xs md:text-sm text-[#285483] dark:text-white">
-              Modern e-commerce platform with Next.js, Stripe <br />{" "}
+              Modern e-commerce platform with Next.js<br />{" "}
               payments and secure checkout flow
             </p>
 
@@ -111,7 +111,7 @@ const Projects = () => {
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
                 <p className="text-xs md:text-sm">
-                  Secure checkout & payment integration
+                  Ensuring checkout & payment integration
                 </p>
               </div>
               <div className="flex items-center gap-2">
@@ -126,7 +126,7 @@ const Projects = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-green-600" />
-                <p className="text-xs md:text-sm">Rate limiting & security best practices</p>
+                <p className="text-xs md:text-sm">Security best practices</p>
               </div>
               <div className="flex items-center justify-between gap-1 lg:gap-4 md:mt-5 lg:mt-0">
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
@@ -137,9 +137,6 @@ const Projects = () => {
                 </div>
                 <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
                   <p className="text-xs md:text-sm text-[#285483] dark:text-white">Tailwind CSS</p>
-                </div>
-                <div className="border-2 border-[#25a6eb1a] p-1.5 rounded-md">
-                  <p className="text-xs md:text-sm text-[#285483] dark:text-white">Stripe</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
